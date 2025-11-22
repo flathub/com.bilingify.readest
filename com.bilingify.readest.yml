@@ -31,8 +31,8 @@ modules:
         only-arches: [aarch64]
         dest-filename: Readest.deb
       - type: file
-        url: https://raw.githubusercontent.com/readest/readest/74b4cc2ceb30321d93307e0b425567b65f032524/data/metainfo/appdata.xml
-        sha256: da991dd75bd8aae48ae1bc86c3bca255c79ed0120c90d1a21e3bfb5c25120954
+        url: https://raw.githubusercontent.com/readest/readest/40673f9cb810004b7ce70fb3fbad2a4775c993b7/data/metainfo/appdata.xml
+        sha256: 9edddf69c669d9df9a2eab0e0a016af74582195729de1e1307a4a08e10007ac2
         dest-filename: com.bilingify.readest.metainfo.xml
       - type: script
         dest-filename: readest.sh
