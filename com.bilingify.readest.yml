@@ -15,26 +15,25 @@ finish-args:
   - --device=dri
   - --share=ipc
   - --share=network
-  - --talk-name=org.com_bilingify_readest.SingleInstance
-  - --own-name=org.com_bilingify_readest.SingleInstance
+  - --own-name=com.bilingify.readest.SingleInstance
 
 modules:
   - name: readest
     buildsystem: simple
     sources:
       - type: file
-        url: https://github.com/readest/readest/releases/download/v0.9.97/Readest_0.9.97_amd64.deb
-        sha256: 9b2bcd8104b78e8476f12d2d86e6f655f2affdb64d5e1eae83b8ae74b69c1d9e
+        url: https://github.com/readest/readest/releases/download/v0.9.98/Readest_0.9.98_amd64.deb
+        sha256: 9cd5926a50aab1c27b32c330e2470b6e64542929c6892a359e6b08a076772046
         only-arches: [x86_64]
         dest-filename: Readest.deb
       - type: file
-        url: https://github.com/readest/readest/releases/download/v0.9.97/Readest_0.9.97_arm64.deb
-        sha256: 1c37acb4f5d1a09b968a0ecedfcb33c916931f47e058592e9c60ad6f00e8f70a
+        url: https://github.com/readest/readest/releases/download/v0.9.98/Readest_0.9.98_arm64.deb
+        sha256: ca5a491e82d102c2ee4b60dc84ad8f62d558c6f87c921eb6a628f421ced0bf46
         only-arches: [aarch64]
         dest-filename: Readest.deb
       - type: file
-        url: https://raw.githubusercontent.com/readest/readest/refs/tags/v0.9.97/data/metainfo/appdata.xml
-        sha256: 9475dfcd4a8540d2b4f5dcf258ad562e6795c96d2401b9112ea48703d2104fc9
+        url: https://raw.githubusercontent.com/readest/readest/refs/tags/v0.9.98/data/metainfo/appdata.xml
+        sha256: b1de0a1208936f4d713d5278205501ace33fced1e4fb97754acfbecf472bf849
         dest-filename: com.bilingify.readest.metainfo.xml
       - type: script
         dest-filename: readest.sh
