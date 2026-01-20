@@ -15,7 +15,6 @@ finish-args:
   - --device=dri
   - --share=ipc
   - --share=network
-  - --own-name=com.bilingify.readest.SingleInstance
 
 modules:
   - name: readest
