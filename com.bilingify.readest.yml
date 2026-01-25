@@ -39,6 +39,7 @@ modules:
         commands:
           - |
             export WEBKIT_DISABLE_DMABUF_RENDERER=1
+            export READEST_DISABLE_UPDATER=1
 
             exec /app/bin/readest "$@"
 
