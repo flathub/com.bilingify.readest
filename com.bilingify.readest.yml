@@ -21,18 +21,18 @@ modules:
     buildsystem: simple
     sources:
       - type: file
-        url: https://github.com/readest/readest/releases/download/v0.11.16/Readest_0.11.16_amd64.deb
-        sha256: 7bcd82dda7194045b7e2eea3cf273283c67c2d18522c1cb96a2dd3b06bacc6a6
+        url: https://github.com/readest/readest/releases/download/v0.11.18/Readest_0.11.18_amd64.deb
+        sha256: 14c70f6660bbcec67f31875a349eeab2b42674e46c6b497addc6c5430cd735e3
         only-arches: [x86_64]
         dest-filename: Readest.deb
       - type: file
-        url: https://github.com/readest/readest/releases/download/v0.11.16/Readest_0.11.16_arm64.deb
-        sha256: 27d1279aba8a4f72a1dd55c13553d2a11aa8f6ef7f5480f3d99bd85038b6d095
+        url: https://github.com/readest/readest/releases/download/v0.11.18/Readest_0.11.18_arm64.deb
+        sha256: ed9f2c5a2b06b3679f0758cafff138f717119eeb3ee371feb8686291e0902a0b
         only-arches: [aarch64]
         dest-filename: Readest.deb
       - type: file
-        url: https://raw.githubusercontent.com/readest/readest/refs/tags/v0.11.16/data/metainfo/appdata.xml
-        sha256: 509767206c4727e8f7a60d2b94879129f0edfa0bbbbcea34a748391b1113a073
+        url: https://raw.githubusercontent.com/readest/readest/refs/tags/v0.11.18/data/metainfo/appdata.xml
+        sha256: 06a808e93fc9e371f9916d99b7d1eba29170faf07f977fe5cdc52f3e51e0c1ed
         dest-filename: com.bilingify.readest.metainfo.xml
       - type: script
         dest-filename: readest.sh
