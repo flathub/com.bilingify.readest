@@ -3,8 +3,11 @@ id: com.bilingify.readest
 runtime: org.gnome.Platform
 runtime-version: "50"
 sdk: org.gnome.Sdk
+sdk-extensions:
+  - org.freedesktop.Sdk.Extension.node26
+  - org.freedesktop.Sdk.Extension.rust-stable
 
-command: readest.sh
+command: readest
 rename-desktop-file: Readest.desktop
 rename-icon: readest
 
@@ -15,40 +18,33 @@ finish-args:
   - --device=all
   - --share=ipc
   - --share=network
+  - --env=WEBKIT_DISABLE_DMABUF_RENDERER=1
 
 modules:
   - name: readest
     buildsystem: simple
-    sources:
-      - type: file
-        url: https://github.com/readest/readest/releases/download/v0.12.1/Readest_0.12.1_amd64.deb
-        sha256: 9cb0fafae540540f90500f9c89f944f4ada6ec54c9daff7a87e78a08f772c412
-        only-arches: [x86_64]
-        dest-filename: Readest.deb
-      - type: file
-        url: https://github.com/readest/readest/releases/download/v0.12.1/Readest_0.12.1_arm64.deb
-        sha256: 42f39d254474eab41b447226f514b0bdbac3712db93ffb17cadc39d59e311f32
-        only-arches: [aarch64]
-        dest-filename: Readest.deb
-      - type: file
-        url: https://raw.githubusercontent.com/readest/readest/refs/tags/v0.12.1/data/metainfo/appdata.xml
-        sha256: fea6cb046acdf2fb3a74c42935d56a3cf755294004ab82c1803a1c30ca45aaa8
-        dest-filename: com.bilingify.readest.metainfo.xml
-      - type: script
-        dest-filename: readest.sh
-        commands:
-          - |
-            export WEBKIT_DISABLE_DMABUF_RENDERER=1
-            export READEST_DISABLE_UPDATER=1
+    build-options:
+      append-path: /usr/lib/sdk/node26/bin:/usr/lib/sdk/rust-stable/bin:/run/build/readest/pnpm/bin
+      env:
+        CARGO_HOME: /run/build/readest/cargo
 
-            exec /app/bin/readest "$@"
+    sources:
+      - type: git
+        url: https://github.com/readest/readest.git
+        tag: v0.12.1
+        commit: f3e1df7e0572c0119cbb420e1e27ca9af859f91c
+      - type: archive
+        url: https://registry.npmjs.org/pnpm/-/pnpm-11.1.1.tgz
+        sha256: 05b282d06332295c736f0b20c8bdf185325bf1bca682c91ed81154a3c6851cc0
+        dest: pnpm
+      - cargo-sources.json
+      - node-sources.json
 
     build-commands:
-      - ar -x Readest.deb
-      - tar -xf data.tar.gz
-      - install -Dm755 readest.sh -t /app/bin
-      - install -Dm755 usr/bin/readest -t /app/bin
-      - install -Dm644 usr/share/applications/Readest.desktop -t /app/share/applications
-      - mv usr/share/icons /app/share
-      - install -Dm644 com.bilingify.readest.metainfo.xml -t /app/share/metainfo
-      - desktop-file-edit --set-key=Exec --set-value='readest.sh %u' /app/share/applications/Readest.desktop
+      - ln -s pnpm.mjs pnpm/bin/pnpm
+      - pnpm install --offline
+      - pnpm --filter @readest/readest-app setup-vendors
+      - "sed -i 's/\"createUpdaterArtifacts\": true/\"createUpdaterArtifacts\": false/' apps/readest-app/src-tauri/tauri.conf.json"
+      - pnpm tauri build --bundles deb
+      - mv target/release/bundle/deb/Readest*/data/usr/* /app
+      - install -Dm644 data/metainfo/appdata.xml /app/share/metainfo/$FLATPAK_ID.metainfo.xml
