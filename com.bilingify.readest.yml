@@ -12,39 +12,113 @@ rename-desktop-file: Readest.desktop
 rename-icon: readest
 
 finish-args:
+  # The CEF runtime drives Chromium's X11 backend (XWayland on Wayland
+  # sessions), so X11 has to be available, not only as a fallback.
+  - --socket=x11
   - --socket=wayland
-  - --socket=fallback-x11
   - --socket=pulseaudio
   - --device=all
   - --share=ipc
   - --share=network
-  - --env=WEBKIT_DISABLE_DMABUF_RENDERER=1
 
 modules:
+  # Chromium cannot use its setuid/user-namespace sandbox inside Flatpak;
+  # zypak redirects the sandboxed helper processes through flatpak-spawn.
+  - name: zypak
+    sources:
+      - type: git
+        url: https://github.com/refi64/zypak
+        tag: v2025.09
+
   - name: readest
     buildsystem: simple
     build-options:
       append-path: /usr/lib/sdk/node26/bin:/usr/lib/sdk/rust-stable/bin:/run/build/readest/pnpm/bin
       env:
         CARGO_HOME: /run/build/readest/cargo
+        # cef-dll-sys and the tauri CLI look for <CEF_PATH>/<cef version>/<os_arch>/
+        # and only download when it is missing; the archive below is unpacked there.
+        CEF_PATH: /run/build/readest/cef
+        # On Linux `pnpm tauri` runs this unpacked copy of @tauri-apps/cli-cef
+        # instead of fetching it with `pnpm dlx`.
+        TAURI_CEF_CLI: /run/build/readest/cli-cef/tauri.js
 
     sources:
       - type: git
         url: https://github.com/readest/readest.git
-        tag: v0.12.6
-        commit: f6146c217fa69d14b4982f640a5af9ee69c813a4
+        tag: v0.12.7
+        commit: REPLACE_WITH_RELEASE_COMMIT
       - type: archive
         url: https://registry.npmjs.org/pnpm/-/pnpm-11.1.1.tgz
         sha256: 05b282d06332295c736f0b20c8bdf185325bf1bca682c91ed81154a3c6851cc0
         dest: pnpm
+      # Generated from Cargo.cef.lock (the CEF build's lockfile), not Cargo.lock.
       - cargo-sources.json
       - node-sources.json
+
+      # CEF binary distribution, the same "minimal" package the `cef` crate
+      # downloads, laid out the way download-cef caches it.
+      - type: archive
+        only-arches: [x86_64]
+        url: https://cef-builds.spotifycdn.com/cef_binary_151.3.24%2Bg2384915%2Bchromium-151.0.7922.174_linux64_minimal.tar.bz2
+        sha256: db53c43fdace8b7ee4af0f005120116d6973aa9d8eb7702c0617badf9be8684e
+        dest: cef/151.3.24/cef_linux_x86_64
+      - type: inline
+        only-arches: [x86_64]
+        dest: cef/151.3.24/cef_linux_x86_64
+        dest-filename: archive.json
+        contents: |
+          {"type": "minimal", "name": "cef_binary_151.3.24+g2384915+chromium-151.0.7922.174_linux64_minimal.tar.bz2", "sha1": "b1e99d3e3ff4213f99f7cda0211db89454398811"}
+      - type: archive
+        only-arches: [aarch64]
+        url: https://cef-builds.spotifycdn.com/cef_binary_151.3.24%2Bg2384915%2Bchromium-151.0.7922.174_linuxarm64_minimal.tar.bz2
+        sha256: 47965b9c36a5958bdd6d6fdb3fe3360f38d17d65914ef636abade14881cdc59b
+        dest: cef/151.3.24/cef_linux_aarch64
+      - type: inline
+        only-arches: [aarch64]
+        dest: cef/151.3.24/cef_linux_aarch64
+        dest-filename: archive.json
+        contents: |
+          {"type": "minimal", "name": "cef_binary_151.3.24+g2384915+chromium-151.0.7922.174_linuxarm64_minimal.tar.bz2", "sha1": "95acd2a46975e2c60afa6b427ec50c0a3be6236f"}
+      # download-cef flattens the distribution: the contents of Release/ and
+      # Resources/ sit next to the headers, and that is where cef-dll-sys and
+      # the tauri CLI expect libcef.so, the .pak files and locales/.
+      - type: shell
+        commands:
+          - for d in cef/151.3.24/cef_linux_*; do mv "$d"/Release/* "$d"/Resources/* "$d"/ && rmdir "$d"/Release "$d"/Resources; done
+
+      # The tauri CLI from upstream's feat/cef branch (the one that bundles CEF).
+      - type: archive
+        url: https://registry.npmjs.org/@tauri-apps/cli-cef/-/cli-cef-3.0.0-alpha.26.tgz
+        sha512: 96af9127b104f6c363d0e696afa74583e6782b20bd93acf499aa1f8e6597359f40f4ed580bdba9375119d043916549e10c2c6f5bfdc1542e2194d7e412f00208
+        dest: cli-cef
+      - type: archive
+        only-arches: [x86_64]
+        url: https://registry.npmjs.org/@tauri-apps/cli-cef-linux-x64-gnu/-/cli-cef-linux-x64-gnu-3.0.0-alpha.26.tgz
+        sha512: 5398e37359dce4cb9e4cdf646da199ed56b051dd0c38cf7de9e20d41d35d02e5faa88ed53b3ca7b64f9a76a925a885d16b88b273307bb6f4b4c59be6927712cc
+        dest: cli-cef/node_modules/@tauri-apps/cli-cef-linux-x64-gnu
+      - type: archive
+        only-arches: [aarch64]
+        url: https://registry.npmjs.org/@tauri-apps/cli-cef-linux-arm64-gnu/-/cli-cef-linux-arm64-gnu-3.0.0-alpha.26.tgz
+        sha512: 854a90125f0e3f7e223d48778b4f50aeadeab4cf0808c7fb2e4bb48e59563604b8056f0df06df2a2beb7b06319f66517dffad23d511dfed8d9528dea08643d27
+        dest: cli-cef/node_modules/@tauri-apps/cli-cef-linux-arm64-gnu
+
+      - type: script
+        dest-filename: readest-launcher.sh
+        commands:
+          - export ZYPAK_CEF_LIBRARY_PATH=/app/share/Readest/libcef.so
+          - exec zypak-wrapper /app/share/Readest/readest "$@"
 
     build-commands:
       - ln -s pnpm.mjs pnpm/bin/pnpm
       - pnpm install --offline
       - pnpm --filter @readest/readest-app setup-vendors
       - "sed -i 's/\"createUpdaterArtifacts\": true/\"createUpdaterArtifacts\": false/' apps/readest-app/src-tauri/tauri.conf.json"
-      - pnpm tauri build --bundles deb
-      - mv target/release/bundle/deb/Readest*/data/usr/* /app
+      - pnpm --filter @readest/readest-app tauri build --bundles deb
+      # The CEF deb puts the executable and the CEF distribution under
+      # usr/share/Readest with usr/bin/readest as a symlink into it.
+      # /app/bin already holds zypak, so merge instead of moving the tree.
+      - cp -a target/release/bundle/deb/Readest*/data/usr/. /app/
+      - rm /app/bin/readest
+      - install -Dm755 readest-launcher.sh /app/bin/readest
       - install -Dm644 data/metainfo/appdata.xml /app/share/metainfo/$FLATPAK_ID.metainfo.xml
