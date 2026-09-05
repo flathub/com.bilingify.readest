@@ -37,6 +37,9 @@ modules:
       append-path: /usr/lib/sdk/node26/bin:/usr/lib/sdk/rust-stable/bin:/run/build/readest/pnpm/bin
       env:
         CARGO_HOME: /run/build/readest/cargo
+        # Playwright's browsers only serve the e2e tests; their downloads are
+        # not vendored, so its postinstall must not look for them.
+        PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: "1"
         # cef-dll-sys and the tauri CLI look for <CEF_PATH>/<cef version>/<os_arch>/
         # and only download when it is missing; the archive below is unpacked there.
         CEF_PATH: /run/build/readest/cef

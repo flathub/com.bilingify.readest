@@ -1,41 +1,6 @@
 [
     {
         "type": "archive",
-        "url": "https://cdn.playwright.dev/builds/cft/148.0.7778.96/linux64/chrome-headless-shell-linux64.zip",
-        "strip-components": 0,
-        "sha256": "88817c574c1838a39f88fda0bbd043b4481fd385fb10e92c323e230844d636ce",
-        "dest": "flatpak-node/cache/ms-playwright/chromium-headless-shell-1223"
-    },
-    {
-        "type": "archive",
-        "url": "https://cdn.playwright.dev/builds/cft/148.0.7778.96/linux64/chrome-linux64.zip",
-        "strip-components": 0,
-        "sha256": "6d18b7fffa9b01e435293edcbc1a637313ace33a8b39d0e547b4f302f388bdd7",
-        "dest": "flatpak-node/cache/ms-playwright/chromium-1223"
-    },
-    {
-        "type": "archive",
-        "url": "https://cdn.playwright.dev/builds/ffmpeg/1011/ffmpeg-linux.zip",
-        "strip-components": 0,
-        "sha256": "ebc74fc5b94830176a3c2914ae96bd8bc7f6a91f4f33890230f84a172ee61ccc",
-        "dest": "flatpak-node/cache/ms-playwright/ffmpeg-1011"
-    },
-    {
-        "type": "archive",
-        "url": "https://cdn.playwright.dev/builds/firefox/1522/firefox-ubuntu-22.04.zip",
-        "strip-components": 0,
-        "sha256": "ab4730b73ee7bdfb675d390e5918174f6392942acc1429589eb26d1c82251cb4",
-        "dest": "flatpak-node/cache/ms-playwright/firefox-1522"
-    },
-    {
-        "type": "archive",
-        "url": "https://cdn.playwright.dev/builds/webkit/2287/webkit-ubuntu-24.04.zip",
-        "strip-components": 0,
-        "sha256": "2c407e6568314076512139d77f7805dc0f65e724ce18a920702e9cf228f0f6a1",
-        "dest": "flatpak-node/cache/ms-playwright/webkit-2287"
-    },
-    {
-        "type": "archive",
         "url": "https://registry.npmjs.org/@esbuild/linux-arm/-/linux-arm-0.28.1.tgz",
         "strip-components": 1,
         "sha512": "a955c1387412f9de58ef6d86c09cc952d38b957ee49b70ab68e686a2b985d690ed3ddd82fe5d521d13e08cbba72c67b9d5287961858a3050f25784b180c4184d",
@@ -12820,36 +12785,6 @@
         "sha512": "6d7138711fe455984a657fd18cf11f94768a56151597ce67a14defe9bf1aa5f404735c7803ecc1c6367894df0ba8677a599ddd97df29638a3bd7b5459a83e9f8",
         "dest-filename": "zwitch-2.0.4.tgz",
         "dest": "flatpak-node/pnpm-tarballs"
-    },
-    {
-        "type": "inline",
-        "contents": "flatpak-node-cache",
-        "dest-filename": "INSTALLATION_COMPLETE",
-        "dest": "flatpak-node/cache/ms-playwright/chromium-1223"
-    },
-    {
-        "type": "inline",
-        "contents": "flatpak-node-cache",
-        "dest-filename": "INSTALLATION_COMPLETE",
-        "dest": "flatpak-node/cache/ms-playwright/chromium-headless-shell-1223"
-    },
-    {
-        "type": "inline",
-        "contents": "flatpak-node-cache",
-        "dest-filename": "INSTALLATION_COMPLETE",
-        "dest": "flatpak-node/cache/ms-playwright/ffmpeg-1011"
-    },
-    {
-        "type": "inline",
-        "contents": "flatpak-node-cache",
-        "dest-filename": "INSTALLATION_COMPLETE",
-        "dest": "flatpak-node/cache/ms-playwright/firefox-1522"
-    },
-    {
-        "type": "inline",
-        "contents": "flatpak-node-cache",
-        "dest-filename": "INSTALLATION_COMPLETE",
-        "dest": "flatpak-node/cache/ms-playwright/webkit-2287"
     },
     {
         "type": "inline",
