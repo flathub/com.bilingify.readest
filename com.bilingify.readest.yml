@@ -46,8 +46,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/readest/readest.git
-        tag: v0.12.7
-        commit: REPLACE_WITH_RELEASE_COMMIT
+        tag: cef-preview-20260906
+        commit: 880142335a3145a5fb9bc2d28b9a3553ed6c3143
       - type: archive
         url: https://registry.npmjs.org/pnpm/-/pnpm-11.1.1.tgz
         sha256: 05b282d06332295c736f0b20c8bdf185325bf1bca682c91ed81154a3c6851cc0

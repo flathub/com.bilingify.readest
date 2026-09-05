@@ -7877,19 +7877,6 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/quick-xml/quick-xml-0.36.2.crate",
-        "sha256": "f7649a7b4df05aed9ea7ec6f628c67c9953a43869b8bc50929569b2999d443fe",
-        "dest": "cargo/vendor/quick-xml-0.36.2"
-    },
-    {
-        "type": "inline",
-        "contents": "{\"package\": \"f7649a7b4df05aed9ea7ec6f628c67c9953a43869b8bc50929569b2999d443fe\", \"files\": {}}",
-        "dest": "cargo/vendor/quick-xml-0.36.2",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/quick-xml/quick-xml-0.39.4.crate",
         "sha256": "cdcc8dd4e2f670d309a5f0e83fe36dfdc05af317008fea29144da1a2ac858e5e",
         "dest": "cargo/vendor/quick-xml-0.39.4"
