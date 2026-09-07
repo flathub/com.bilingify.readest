@@ -7825,6 +7825,19 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/psl/psl-2.1.231.crate",
+        "sha256": "62697aa3f75e221e1ecfa35146237f7a3fa7f234b523816734deb198a1b23418",
+        "dest": "cargo/vendor/psl-2.1.231"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"62697aa3f75e221e1ecfa35146237f7a3fa7f234b523816734deb198a1b23418\", \"files\": {}}",
+        "dest": "cargo/vendor/psl-2.1.231",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/psl-types/psl-types-2.0.11.crate",
         "sha256": "33cb294fe86a74cbcf50d4445b37da762029549ebeea341421c7c70370f86cac",
         "dest": "cargo/vendor/psl-types-2.0.11"

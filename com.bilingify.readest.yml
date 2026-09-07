@@ -51,8 +51,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/readest/readest.git
-        tag: cef-preview-20260906-2
-        commit: ee86510ccaf736c2cf887add305c5344420ab0a3
+        tag: v0.12.8
+        commit: 3e4f82107871b7125c08b37d2a8d9139ddaf589e
       - type: archive
         url: https://registry.npmjs.org/pnpm/-/pnpm-11.1.1.tgz
         sha256: 05b282d06332295c736f0b20c8bdf185325bf1bca682c91ed81154a3c6851cc0
