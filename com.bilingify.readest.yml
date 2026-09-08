@@ -20,6 +20,7 @@ finish-args:
   - --device=all
   - --share=ipc
   - --share=network
+  - --talk-name=org.freedesktop.secrets
 
 modules:
   # Chromium cannot use its setuid/user-namespace sandbox inside Flatpak;
@@ -50,8 +51,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/readest/readest.git
-        tag: cef-preview-20260906-2
-        commit: ee86510ccaf736c2cf887add305c5344420ab0a3
+        commit: f4bc0905aecda0f58e779357c6de9f7e759a5b3d
       - type: archive
         url: https://registry.npmjs.org/pnpm/-/pnpm-11.1.1.tgz
         sha256: 05b282d06332295c736f0b20c8bdf185325bf1bca682c91ed81154a3c6851cc0
@@ -123,6 +123,8 @@ modules:
       # usr/share/Readest with usr/bin/readest as a symlink into it.
       # /app/bin already holds zypak, so merge instead of moving the tree.
       - cp -a target/release/bundle/deb/Readest*/data/usr/. /app/
+      # Preserve OAuth callback URLs when the desktop launches the app.
+      - sed -i 's|^Exec=readest$|Exec=readest %u|' /app/share/applications/Readest.desktop
       - rm /app/bin/readest
       - install -Dm755 readest-launcher.sh /app/bin/readest
       - install -Dm644 data/metainfo/appdata.xml /app/share/metainfo/$FLATPAK_ID.metainfo.xml
