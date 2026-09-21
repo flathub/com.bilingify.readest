@@ -51,7 +51,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/readest/readest.git
-        commit: f4bc0905aecda0f58e779357c6de9f7e759a5b3d
+        commit: 8a56831af61841175b49cc2740bffcde57b470b0
       - type: archive
         url: https://registry.npmjs.org/pnpm/-/pnpm-11.1.1.tgz
         sha256: 05b282d06332295c736f0b20c8bdf185325bf1bca682c91ed81154a3c6851cc0
