@@ -8,14 +8,14 @@
     {
         "type": "git",
         "url": "https://github.com/readest/tauri",
-        "commit": "48d880217ecf325620f59f2a1c6ab31686a0c335",
-        "dest": "flatpak-cargo/git/tauri-48d8802"
+        "commit": "f238ea5b8e0c533423f2df9d81ac275fa3037446",
+        "dest": "flatpak-cargo/git/tauri-f238ea5"
     },
     {
         "type": "git",
         "url": "https://github.com/readest/tauri-plugins-workspace",
-        "commit": "1423992771e0b57582ca3b06a6adc46ec26aa784",
-        "dest": "flatpak-cargo/git/tauri-plugins-workspace-1423992"
+        "commit": "835adce473e8f059f6ba84660dd07bcb19fb9030",
+        "dest": "flatpak-cargo/git/tauri-plugins-workspace-835adce"
     },
     {
         "type": "archive",
@@ -514,6 +514,19 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/async-broadcast/async-broadcast-0.5.1.crate",
+        "sha256": "7c48ccdbf6ca6b121e0f586cbc0e73ae440e56c67c30fa0873b4e110d9c26d2b",
+        "dest": "cargo/vendor/async-broadcast-0.5.1"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"7c48ccdbf6ca6b121e0f586cbc0e73ae440e56c67c30fa0873b4e110d9c26d2b\", \"files\": {}}",
+        "dest": "cargo/vendor/async-broadcast-0.5.1",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/async-broadcast/async-broadcast-0.7.2.crate",
         "sha256": "435a87a52755b8f27fcf321ac4f04b2802e337c8c4872923137471ec39c37532",
         "dest": "cargo/vendor/async-broadcast-0.7.2"
@@ -553,6 +566,32 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/async-fs/async-fs-1.6.0.crate",
+        "sha256": "279cf904654eeebfa37ac9bb1598880884924aab82e290aa65c9e77a0e142e06",
+        "dest": "cargo/vendor/async-fs-1.6.0"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"279cf904654eeebfa37ac9bb1598880884924aab82e290aa65c9e77a0e142e06\", \"files\": {}}",
+        "dest": "cargo/vendor/async-fs-1.6.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/async-io/async-io-1.13.0.crate",
+        "sha256": "0fc5b45d93ef0529756f812ca52e44c221b35341892d3dcc34132ac02f3dd2af",
+        "dest": "cargo/vendor/async-io-1.13.0"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"0fc5b45d93ef0529756f812ca52e44c221b35341892d3dcc34132ac02f3dd2af\", \"files\": {}}",
+        "dest": "cargo/vendor/async-io-1.13.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/async-io/async-io-2.6.0.crate",
         "sha256": "456b8a8feb6f42d237746d4b3e9a178494627745c3c56c6ea55d92ba50d026fc",
         "dest": "cargo/vendor/async-io-2.6.0"
@@ -566,6 +605,19 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/async-lock/async-lock-2.8.0.crate",
+        "sha256": "287272293e9d8c41773cec55e365490fe034813a2f172f502d6ddcf75b2f582b",
+        "dest": "cargo/vendor/async-lock-2.8.0"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"287272293e9d8c41773cec55e365490fe034813a2f172f502d6ddcf75b2f582b\", \"files\": {}}",
+        "dest": "cargo/vendor/async-lock-2.8.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/async-lock/async-lock-3.4.2.crate",
         "sha256": "290f7f2596bd5b78a9fec8088ccd89180d7f9f55b94b0576823bbbdc72ee8311",
         "dest": "cargo/vendor/async-lock-3.4.2"
@@ -574,6 +626,19 @@
         "type": "inline",
         "contents": "{\"package\": \"290f7f2596bd5b78a9fec8088ccd89180d7f9f55b94b0576823bbbdc72ee8311\", \"files\": {}}",
         "dest": "cargo/vendor/async-lock-3.4.2",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/async-process/async-process-1.8.1.crate",
+        "sha256": "ea6438ba0a08d81529c69b36700fa2f95837bfe3e776ab39cde9c14d9149da88",
+        "dest": "cargo/vendor/async-process-1.8.1"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"ea6438ba0a08d81529c69b36700fa2f95837bfe3e776ab39cde9c14d9149da88\", \"files\": {}}",
+        "dest": "cargo/vendor/async-process-1.8.1",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -1632,6 +1697,19 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/cocoa/cocoa-0.24.1.crate",
+        "sha256": "f425db7937052c684daec3bd6375c8abe2d146dca4b8b143d6db777c39138f3a",
+        "dest": "cargo/vendor/cocoa-0.24.1"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"f425db7937052c684daec3bd6375c8abe2d146dca4b8b143d6db777c39138f3a\", \"files\": {}}",
+        "dest": "cargo/vendor/cocoa-0.24.1",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/cocoa/cocoa-0.25.0.crate",
         "sha256": "f6140449f97a6e97f9511815c5632d84c8aacf8ac271ad77c559218161a1373c",
         "dest": "cargo/vendor/cocoa-0.25.0"
@@ -1874,6 +1952,19 @@
         "type": "inline",
         "contents": "{\"package\": \"773648b94d0e5d620f64f280777445740e61fe701025087ec8b57f45c791888b\", \"files\": {}}",
         "dest": "cargo/vendor/core-foundation-sys-0.8.7",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/core-graphics/core-graphics-0.22.3.crate",
+        "sha256": "2581bbab3b8ffc6fcbd550bf46c355135d16e9ff2a6ea032ad6b9bf1d7efe4fb",
+        "dest": "cargo/vendor/core-graphics-0.22.3"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"2581bbab3b8ffc6fcbd550bf46c355135d16e9ff2a6ea032ad6b9bf1d7efe4fb\", \"files\": {}}",
+        "dest": "cargo/vendor/core-graphics-0.22.3",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -2503,6 +2594,19 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/derivative/derivative-2.2.0.crate",
+        "sha256": "fcc3dd5e9e9c0b295d6e1e4d811fb6f157d5ffd784b8d202fc62eac8035a770b",
+        "dest": "cargo/vendor/derivative-2.2.0"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"fcc3dd5e9e9c0b295d6e1e4d811fb6f157d5ffd784b8d202fc62eac8035a770b\", \"files\": {}}",
+        "dest": "cargo/vendor/derivative-2.2.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/derive_arbitrary/derive_arbitrary-1.4.2.crate",
         "sha256": "1e567bd82dcff979e4b03460c307b3cdc9e96fde3d73bed1496d2bc75d9dd62a",
         "dest": "cargo/vendor/derive_arbitrary-1.4.2"
@@ -2667,6 +2771,19 @@
         "type": "inline",
         "contents": "{\"package\": \"90c55d69cab17c19677ce3a5f8face993a9e6eaf847fecac3547f3a3ff4a2494\", \"files\": {}}",
         "dest": "cargo/vendor/discord-rich-presence-1.1.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/dispatch/dispatch-0.2.0.crate",
+        "sha256": "bd0c93bb4b0c6d9b77f4435b0ae98c24d17f1c45b2ff844c6151a07256ca923b",
+        "dest": "cargo/vendor/dispatch-0.2.0"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"bd0c93bb4b0c6d9b77f4435b0ae98c24d17f1c45b2ff844c6151a07256ca923b\", \"files\": {}}",
+        "dest": "cargo/vendor/dispatch-0.2.0",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -3218,6 +3335,32 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/event-listener/event-listener-2.5.3.crate",
+        "sha256": "0206175f82b8d6bf6652ff7d71a1e27fd2e4efde587fd368662814d6ec1d9ce0",
+        "dest": "cargo/vendor/event-listener-2.5.3"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"0206175f82b8d6bf6652ff7d71a1e27fd2e4efde587fd368662814d6ec1d9ce0\", \"files\": {}}",
+        "dest": "cargo/vendor/event-listener-2.5.3",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/event-listener/event-listener-3.1.0.crate",
+        "sha256": "d93877bcde0eb80ca09131a08d23f0a5c18a620b01db137dba666d18cd9b30c2",
+        "dest": "cargo/vendor/event-listener-3.1.0"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"d93877bcde0eb80ca09131a08d23f0a5c18a620b01db137dba666d18cd9b30c2\", \"files\": {}}",
+        "dest": "cargo/vendor/event-listener-3.1.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/event-listener/event-listener-5.4.1.crate",
         "sha256": "e13b66accf52311f30a0db42147dadea9850cb48cd070028831ae5f5d4b856ab",
         "dest": "cargo/vendor/event-listener-5.4.1"
@@ -3278,6 +3421,19 @@
         "type": "inline",
         "contents": "{\"package\": \"9afc2bd4d5a73106dd53d10d73d3401c2f32730ba2c0b93ddb888a8983680471\", \"files\": {}}",
         "dest": "cargo/vendor/fastdivide-0.4.2",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/fastrand/fastrand-1.9.0.crate",
+        "sha256": "e51093e27b0797c359783294ca4f0a911c270184cb10f85783b118614a1501be",
+        "dest": "cargo/vendor/fastrand-1.9.0"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"e51093e27b0797c359783294ca4f0a911c270184cb10f85783b118614a1501be\", \"files\": {}}",
+        "dest": "cargo/vendor/fastrand-1.9.0",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -3382,6 +3538,19 @@
         "type": "inline",
         "contents": "{\"package\": \"5baebc0774151f905a1a2cc41989300b1e6fbb29aff0ceffa1064fdd3088d582\", \"files\": {}}",
         "dest": "cargo/vendor/find-msvc-tools-0.1.9",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/findshlibs/findshlibs-0.10.2.crate",
+        "sha256": "40b9e59cd0f7e0806cca4be089683ecb6434e602038df21fe6bf6711b2f07f64",
+        "dest": "cargo/vendor/findshlibs-0.10.2"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"40b9e59cd0f7e0806cca4be089683ecb6434e602038df21fe6bf6711b2f07f64\", \"files\": {}}",
+        "dest": "cargo/vendor/findshlibs-0.10.2",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -3673,6 +3842,19 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/futures-lite/futures-lite-1.13.0.crate",
+        "sha256": "49a9d51ce47660b1e808d3c990b4709f2f415d928835a17dfd16991515c46bce",
+        "dest": "cargo/vendor/futures-lite-1.13.0"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"49a9d51ce47660b1e808d3c990b4709f2f415d928835a17dfd16991515c46bce\", \"files\": {}}",
+        "dest": "cargo/vendor/futures-lite-1.13.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/futures-lite/futures-lite-2.6.1.crate",
         "sha256": "f78e10609fe0e0b3f4157ffab1876319b5b0db102a2c60dc4626306dc46b44ad",
         "dest": "cargo/vendor/futures-lite-2.6.1"
@@ -3798,45 +3980,6 @@
         "type": "inline",
         "contents": "{\"package\": \"5c2d13f38594ac1e66619e188c6d5a1adb98d11b2fcf7894fc416ad76aa2f3f7\", \"files\": {}}",
         "dest": "cargo/vendor/gdk-sys-0.18.2",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/gdkwayland-sys/gdkwayland-sys-0.18.2.crate",
-        "sha256": "140071d506d223f7572b9f09b5e155afbd77428cd5cc7af8f2694c41d98dfe69",
-        "dest": "cargo/vendor/gdkwayland-sys-0.18.2"
-    },
-    {
-        "type": "inline",
-        "contents": "{\"package\": \"140071d506d223f7572b9f09b5e155afbd77428cd5cc7af8f2694c41d98dfe69\", \"files\": {}}",
-        "dest": "cargo/vendor/gdkwayland-sys-0.18.2",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/gdkx11/gdkx11-0.18.2.crate",
-        "sha256": "3caa00e14351bebbc8183b3c36690327eb77c49abc2268dd4bd36b856db3fbfe",
-        "dest": "cargo/vendor/gdkx11-0.18.2"
-    },
-    {
-        "type": "inline",
-        "contents": "{\"package\": \"3caa00e14351bebbc8183b3c36690327eb77c49abc2268dd4bd36b856db3fbfe\", \"files\": {}}",
-        "dest": "cargo/vendor/gdkx11-0.18.2",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/gdkx11-sys/gdkx11-sys-0.18.2.crate",
-        "sha256": "6e2e7445fe01ac26f11601db260dd8608fe172514eb63b3b5e261ea6b0f4428d",
-        "dest": "cargo/vendor/gdkx11-sys-0.18.2"
-    },
-    {
-        "type": "inline",
-        "contents": "{\"package\": \"6e2e7445fe01ac26f11601db260dd8608fe172514eb63b3b5e261ea6b0f4428d\", \"files\": {}}",
-        "dest": "cargo/vendor/gdkx11-sys-0.18.2",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -4318,6 +4461,19 @@
         "type": "inline",
         "contents": "{\"package\": \"2304e00983f87ffb38b55b444b5e3b60a884b5d30c0fca7d82fe33449bbe55ea\", \"files\": {}}",
         "dest": "cargo/vendor/heck-0.5.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/hermit-abi/hermit-abi-0.3.9.crate",
+        "sha256": "d231dfb89cfffdbc30e7fc41579ed6066ad03abda9e567ccafae602b97ec5024",
+        "dest": "cargo/vendor/hermit-abi-0.3.9"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"d231dfb89cfffdbc30e7fc41579ed6066ad03abda9e567ccafae602b97ec5024\", \"files\": {}}",
+        "dest": "cargo/vendor/hermit-abi-0.3.9",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -4869,6 +5025,19 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/instant/instant-0.1.13.crate",
+        "sha256": "e0242819d153cba4b4b05a5a8f2a7e9bbf97b6055b2a002b395c96b5ff3c0222",
+        "dest": "cargo/vendor/instant-0.1.13"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"e0242819d153cba4b4b05a5a8f2a7e9bbf97b6055b2a002b395c96b5ff3c0222\", \"files\": {}}",
+        "dest": "cargo/vendor/instant-0.1.13",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/intrusive-collections/intrusive-collections-0.9.7.crate",
         "sha256": "189d0897e4cbe8c75efedf3502c18c887b05046e59d28404d4d8e46cbc4d1e86",
         "dest": "cargo/vendor/intrusive-collections-0.9.7"
@@ -4890,6 +5059,19 @@
         "type": "inline",
         "contents": "{\"package\": \"a4f0c30c76f2f4ccee3fe55a2435f691ca00c0e4bd87abe4f4a851b1d4dac39b\", \"files\": {}}",
         "dest": "cargo/vendor/inventory-0.3.24",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/io-lifetimes/io-lifetimes-1.0.11.crate",
+        "sha256": "eae7b9aee968036d54dce06cebaefd919e4472e753296daccd6d344e3e2df0c2",
+        "dest": "cargo/vendor/io-lifetimes-1.0.11"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"eae7b9aee968036d54dce06cebaefd919e4472e753296daccd6d344e3e2df0c2\", \"files\": {}}",
+        "dest": "cargo/vendor/io-lifetimes-1.0.11",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -5467,6 +5649,19 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/linux-raw-sys/linux-raw-sys-0.3.8.crate",
+        "sha256": "ef53942eb7bf7ff43a617b3e2c1c4a5ecf5944a7c1bc12d7ee39bbb15e5c1519",
+        "dest": "cargo/vendor/linux-raw-sys-0.3.8"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"ef53942eb7bf7ff43a617b3e2c1c4a5ecf5944a7c1bc12d7ee39bbb15e5c1519\", \"files\": {}}",
+        "dest": "cargo/vendor/linux-raw-sys-0.3.8",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/linux-raw-sys/linux-raw-sys-0.4.15.crate",
         "sha256": "d26c52dbd32dccf2d10cac7725f8eae5296885fb5703b261f7d0a0739ec807ab",
         "dest": "cargo/vendor/linux-raw-sys-0.4.15"
@@ -5836,6 +6031,19 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/memoffset/memoffset-0.7.1.crate",
+        "sha256": "5de893c32cde5f383baa4c04c5d6dbdd735cfd4a794b0debdb2bb1b421da5ff4",
+        "dest": "cargo/vendor/memoffset-0.7.1"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"5de893c32cde5f383baa4c04c5d6dbdd735cfd4a794b0debdb2bb1b421da5ff4\", \"files\": {}}",
+        "dest": "cargo/vendor/memoffset-0.7.1",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/memoffset/memoffset-0.9.1.crate",
         "sha256": "488016bfae457b036d996092f6cb448677611ce4449e970ceaf42695203f218a",
         "dest": "cargo/vendor/memoffset-0.9.1"
@@ -6130,6 +6338,19 @@
         "type": "inline",
         "contents": "{\"package\": \"b2ccba0cfe4fdf15982d1674c69b1fd80bad427d293849982668dfe454bd61f2\", \"files\": {}}",
         "dest": "cargo/vendor/nix-0.19.1",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/nix/nix-0.26.4.crate",
+        "sha256": "598beaf3cc6fdd9a5dfb1630c2800c7acd31df7aaf0f565796fba2b53ca1af1b",
+        "dest": "cargo/vendor/nix-0.26.4"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"598beaf3cc6fdd9a5dfb1630c2800c7acd31df7aaf0f565796fba2b53ca1af1b\", \"files\": {}}",
+        "dest": "cargo/vendor/nix-0.26.4",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -6460,6 +6681,19 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/objc2-av-foundation/objc2-av-foundation-0.3.2.crate",
+        "sha256": "478ae33fcac9df0a18db8302387c666b8ef08a3e2d62b510ca4fc278a384b6c0",
+        "dest": "cargo/vendor/objc2-av-foundation-0.3.2"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"478ae33fcac9df0a18db8302387c666b8ef08a3e2d62b510ca4fc278a384b6c0\", \"files\": {}}",
+        "dest": "cargo/vendor/objc2-av-foundation-0.3.2",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/objc2-cloud-kit/objc2-cloud-kit-0.3.2.crate",
         "sha256": "73ad74d880bb43877038da939b7427bba67e9dd42004a18b809ba7d87cee241c",
         "dest": "cargo/vendor/objc2-cloud-kit-0.3.2"
@@ -6577,19 +6811,6 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/objc2-exception-helper/objc2-exception-helper-0.1.1.crate",
-        "sha256": "c7a1c5fbb72d7735b076bb47b578523aedc40f3c439bea6dfd595c089d79d98a",
-        "dest": "cargo/vendor/objc2-exception-helper-0.1.1"
-    },
-    {
-        "type": "inline",
-        "contents": "{\"package\": \"c7a1c5fbb72d7735b076bb47b578523aedc40f3c439bea6dfd595c089d79d98a\", \"files\": {}}",
-        "dest": "cargo/vendor/objc2-exception-helper-0.1.1",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/objc2-foundation/objc2-foundation-0.3.2.crate",
         "sha256": "e3e0adef53c21f888deb4fa59fc59f7eb17404926ee8a6f59f5df0fd7f9f3272",
         "dest": "cargo/vendor/objc2-foundation-0.3.2"
@@ -6624,6 +6845,19 @@
         "type": "inline",
         "contents": "{\"package\": \"2a1e6550c4caed348956ce3370c9ffeca70bb1dbed4fa96112e7c6170e074586\", \"files\": {}}",
         "dest": "cargo/vendor/objc2-javascript-core-0.3.2",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/objc2-media-player/objc2-media-player-0.3.2.crate",
+        "sha256": "85f2a98483f6e76313cb85a5a185eaa3cda86a177b13a8852d56cbd0085bf635",
+        "dest": "cargo/vendor/objc2-media-player-0.3.2"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"85f2a98483f6e76313cb85a5a185eaa3cda86a177b13a8852d56cbd0085bf635\", \"files\": {}}",
+        "dest": "cargo/vendor/objc2-media-player-0.3.2",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -7604,6 +7838,19 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/polling/polling-2.8.0.crate",
+        "sha256": "4b2d323e8ca7996b3e23126511a523f7e62924d93ecd5ae73b333815b0eb3dce",
+        "dest": "cargo/vendor/polling-2.8.0"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"4b2d323e8ca7996b3e23126511a523f7e62924d93ecd5ae73b333815b0eb3dce\", \"files\": {}}",
+        "dest": "cargo/vendor/polling-2.8.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/polling/polling-3.11.0.crate",
         "sha256": "5d0e4f59085d47d8241c88ead0f274e8a0cb551f3625263c05eb8dd897c34218",
         "dest": "cargo/vendor/polling-3.11.0"
@@ -7612,6 +7859,19 @@
         "type": "inline",
         "contents": "{\"package\": \"5d0e4f59085d47d8241c88ead0f274e8a0cb551f3625263c05eb8dd897c34218\", \"files\": {}}",
         "dest": "cargo/vendor/polling-3.11.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/pollster/pollster-0.3.0.crate",
+        "sha256": "22686f4785f02a4fcc856d3b3bb19bf6c8160d103f7a99cc258bddd0251dc7f2",
+        "dest": "cargo/vendor/pollster-0.3.0"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"22686f4785f02a4fcc856d3b3bb19bf6c8160d103f7a99cc258bddd0251dc7f2\", \"files\": {}}",
+        "dest": "cargo/vendor/pollster-0.3.0",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -8592,6 +8852,19 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/rustix/rustix-0.37.28.crate",
+        "sha256": "519165d378b97752ca44bbe15047d5d3409e875f39327546b42ac81d7e18c1b6",
+        "dest": "cargo/vendor/rustix-0.37.28"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"519165d378b97752ca44bbe15047d5d3409e875f39327546b42ac81d7e18c1b6\", \"files\": {}}",
+        "dest": "cargo/vendor/rustix-0.37.28",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/rustix/rustix-0.38.44.crate",
         "sha256": "fdb5bc1ae2baa591800df16c9ca78619bf65c0488b41b96ccec5d11220d8c154",
         "dest": "cargo/vendor/rustix-0.38.44"
@@ -8964,6 +9237,19 @@
         "type": "inline",
         "contents": "{\"package\": \"deaa38b94e70820ff3f1f9db3c8b0aef053b667be130f618e615e0ff2492cbcc\", \"files\": {}}",
         "dest": "cargo/vendor/sentry-core-0.42.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/sentry-debug-images/sentry-debug-images-0.42.0.crate",
+        "sha256": "00950648aa0d371c7f57057434ad5671bd4c106390df7e7284739330786a01b6",
+        "dest": "cargo/vendor/sentry-debug-images-0.42.0"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"00950648aa0d371c7f57057434ad5671bd4c106390df7e7284739330786a01b6\", \"files\": {}}",
+        "dest": "cargo/vendor/sentry-debug-images-0.42.0",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -9593,6 +9879,19 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/socket2/socket2-0.4.10.crate",
+        "sha256": "9f7916fc008ca5542385b89a3d3ce689953c143e9304a9bf8beec1de48994c0d",
+        "dest": "cargo/vendor/socket2-0.4.10"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"9f7916fc008ca5542385b89a3d3ce689953c143e9304a9bf8beec1de48994c0d\", \"files\": {}}",
+        "dest": "cargo/vendor/socket2-0.4.10",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/socket2/socket2-0.6.5.crate",
         "sha256": "c3d1e2c7f27f8d4cb10542a02c49005dbd6e93095799d6f3be745fae9f8fedd4",
         "dest": "cargo/vendor/socket2-0.6.5"
@@ -9671,6 +9970,19 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/souvlaki/souvlaki-0.8.3.crate",
+        "sha256": "5855c8f31521af07d896b852eaa9eca974ddd3211fc2ae292e58dda8eb129bc8",
+        "dest": "cargo/vendor/souvlaki-0.8.3"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"5855c8f31521af07d896b852eaa9eca974ddd3211fc2ae292e58dda8eb129bc8\", \"files\": {}}",
+        "dest": "cargo/vendor/souvlaki-0.8.3",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/spin/spin-0.9.9.crate",
         "sha256": "3763264f6b73151db08c50ff20d7d8a0b8796e021cdea7ceedad07b80155fa0e",
         "dest": "cargo/vendor/spin-0.9.9"
@@ -9718,6 +10030,19 @@
         "type": "inline",
         "contents": "{\"package\": \"6ce2be8dc25455e1f91df71bfa12ad37d7af1092ae736f3a6cd0e37bc7810596\", \"files\": {}}",
         "dest": "cargo/vendor/stable_deref_trait-1.2.1",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/static_assertions/static_assertions-1.1.0.crate",
+        "sha256": "a2eb9349b6444b326872e140eb1cf5e7c522154d69e7a0ffb0fb81c06b37543f",
+        "dest": "cargo/vendor/static_assertions-1.1.0"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"a2eb9349b6444b326872e140eb1cf5e7c522154d69e7a0ffb0fb81c06b37543f\", \"files\": {}}",
+        "dest": "cargo/vendor/static_assertions-1.1.0",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -10152,32 +10477,6 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/tao/tao-0.37.0.crate",
-        "sha256": "5d12c8607b01516c5d4a37e471a9cfb40b4a25cebce8fecbc6a559e125e51b6b",
-        "dest": "cargo/vendor/tao-0.37.0"
-    },
-    {
-        "type": "inline",
-        "contents": "{\"package\": \"5d12c8607b01516c5d4a37e471a9cfb40b4a25cebce8fecbc6a559e125e51b6b\", \"files\": {}}",
-        "dest": "cargo/vendor/tao-0.37.0",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/tao-macros/tao-macros-0.1.4.crate",
-        "sha256": "5f7eeb6d99155545da6150a1795945f16ac9c178deb2a5f2e74d776107bd5849",
-        "dest": "cargo/vendor/tao-macros-0.1.4"
-    },
-    {
-        "type": "inline",
-        "contents": "{\"package\": \"5f7eeb6d99155545da6150a1795945f16ac9c178deb2a5f2e74d776107bd5849\", \"files\": {}}",
-        "dest": "cargo/vendor/tao-macros-0.1.4",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/tap/tap-1.0.1.crate",
         "sha256": "55937e1799185b12863d447f42597ed69d9928686b8d88a1df17376a097d8369",
         "dest": "cargo/vendor/tap-1.0.1"
@@ -10230,12 +10529,12 @@
     {
         "type": "shell",
         "commands": [
-            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-48d8802/crates/tauri\" \"cargo/vendor/tauri\""
+            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-f238ea5/crates/tauri\" \"cargo/vendor/tauri\""
         ]
     },
     {
         "type": "inline",
-        "contents": "[package]\nname = \"tauri\"\nversion = \"2.11.5\"\ndescription = \"Make tiny, secure apps for all desktop platforms with Tauri\"\nexclude = [\"/test\", \"/.scripts\", \"CHANGELOG.md\", \"/target\"]\nreadme = \"README.md\"\nlinks = \"Tauri\"\nauthors = [\"Tauri Programme within The Commons Conservancy\"]\nhomepage = \"https://tauri.app/\"\nrepository = \"https://github.com/tauri-apps/tauri\"\ncategories = [\"gui\", \"web-programming\"]\nlicense = \"Apache-2.0 OR MIT\"\nedition = \"2024\"\nrust-version = \"1.95\"\n\n[package.metadata.docs.rs]\nno-default-features = true\nfeatures = [\"wry\", \"unstable\", \"custom-protocol\", \"tray-icon\", \"devtools\", \"image-png\", \"protocol-asset\", \"test\", \"specta\", \"dynamic-acl\", \"isolation\"]\ndefault-target = \"x86_64-unknown-linux-gnu\"\ntargets = [\"x86_64-pc-windows-msvc\", \"x86_64-unknown-linux-gnu\", \"x86_64-apple-darwin\", \"x86_64-linux-android\", \"x86_64-apple-ios\"]\n\n[package.metadata.cargo-udeps.ignore]\nnormal = [\"reqwest\"]\nbuild = [\"tauri-build\"]\ndevelopment = [\"quickcheck_macros\"]\n\n[dependencies]\nurl = \"2\"\nanyhow = \"1\"\nthiserror = \"2\"\ngetrandom = \"0.3\"\nserde_repr = \"0.1\"\nhttp = \"1\"\ndirs = \"6\"\npercent-encoding = \"2\"\nglob = \"0.3\"\nmime = \"0.3\"\nserialize-to-javascript = \"0.1.2\"\nheck = \"0.5\"\nlog = \"0.4.21\"\ndunce = \"1\"\ncookie = \"0.18\"\n\n[dependencies.serde_json]\nversion = \"1\"\nfeatures = [\"raw_value\"]\n\n[dependencies.serde]\nversion = \"1\"\nfeatures = [\"derive\", \"rc\"]\n\n[dependencies.tokio]\nversion = \"1\"\nfeatures = [\"rt\", \"rt-multi-thread\", \"sync\", \"fs\", \"io-util\"]\n\n[dependencies.uuid]\nversion = \"1\"\nfeatures = [\"v4\"]\noptional = true\n\n[dependencies.tauri-runtime]\nversion = \"~2.11.3\"\npath = \"./crates/tauri-runtime\"\n\n[dependencies.tauri-macros]\nversion = \"~2.6.3\"\npath = \"./crates/tauri-macros\"\n\n[dependencies.tauri-utils]\nfeatures = [\"resources\"]\nversion = \"~2.9.3\"\npath = \"./crates/tauri-utils\"\n\n[dependencies.tauri-runtime-wry]\noptional = true\nversion = \"~2.11.4\"\npath = \"./crates/tauri-runtime-wry\"\ndefault-features = false\n\n[dependencies.tauri-runtime-cef]\noptional = true\nversion = \"~0.1.0\"\npath = \"./crates/tauri-runtime-cef\"\ndefault-features = false\n\n[dependencies.raw-window-handle]\nversion = \"0.6\"\nfeatures = [\"std\"]\n\n[dependencies.data-url]\nversion = \"0.3\"\noptional = true\n\n[dependencies.image]\nversion = \"0.25\"\ndefault-features = false\noptional = true\n\n[dependencies.http-range]\nversion = \"0.1\"\noptional = true\n\n[dependencies.tracing]\nversion = \"0.1\"\noptional = true\n\n[dependencies.specta]\nversion = \"^2.0.0-rc.25\"\noptional = true\ndefault-features = false\nfeatures = [\"function\", \"derive\", \"std\"]\n\n[dependencies.bytes]\nversion = \"1\"\nfeatures = [\"serde\"]\n\n[dependencies.reqwest]\nversion = \"0.13\"\ndefault-features = false\nfeatures = [\"json\", \"stream\"]\n\n[dependencies.rustls]\nversion = \"0.23\"\ndefault-features = false\nfeatures = [\"ring\"]\noptional = true\n\n[target.\"cfg(any(target_os = \\\"linux\\\", target_os = \\\"dragonfly\\\", target_os = \\\"freebsd\\\", target_os = \\\"openbsd\\\", target_os = \\\"netbsd\\\", target_os = \\\"windows\\\", target_os = \\\"macos\\\"))\".dependencies.muda]\nversion = \"0.19\"\ndefault-features = false\nfeatures = [\"serde\", \"gtk\"]\n\n[target.\"cfg(any(target_os = \\\"linux\\\", target_os = \\\"dragonfly\\\", target_os = \\\"freebsd\\\", target_os = \\\"openbsd\\\", target_os = \\\"netbsd\\\", target_os = \\\"windows\\\", target_os = \\\"macos\\\"))\".dependencies.tray-icon]\nversion = \"0.24\"\ndefault-features = false\nfeatures = [\"serde\", \"gtk\"]\noptional = true\n\n[target.\"cfg(any(target_os = \\\"linux\\\", target_os = \\\"dragonfly\\\", target_os = \\\"freebsd\\\", target_os = \\\"openbsd\\\", target_os = \\\"netbsd\\\"))\".dependencies.gtk]\nversion = \"0.18\"\nfeatures = [\"v3_24\"]\n\n[target.\"cfg(any(target_os = \\\"linux\\\", target_os = \\\"dragonfly\\\", target_os = \\\"freebsd\\\", target_os = \\\"openbsd\\\", target_os = \\\"netbsd\\\"))\".dependencies.webkit2gtk]\nversion = \"2\"\nfeatures = [\"v2_40\"]\noptional = true\n\n[target.\"cfg(target_vendor = \\\"apple\\\")\".dependencies]\nobjc2 = \"0.6\"\n\n[target.\"cfg(target_os = \\\"macos\\\")\".dependencies]\nembed_plist = \"1.2\"\nplist = \"1\"\nwindow-vibrancy = \"0.6\"\n\n[target.\"cfg(target_os = \\\"macos\\\")\".dependencies.objc2-foundation]\nversion = \"0.3.2\"\ndefault-features = false\nfeatures = [\"std\", \"NSData\", \"NSThread\"]\n\n[target.\"cfg(target_os = \\\"macos\\\")\".dependencies.objc2-app-kit]\nversion = \"0.3.2\"\ndefault-features = false\nfeatures = [\"std\", \"NSApplication\", \"NSColor\", \"NSResponder\", \"NSView\", \"NSWindow\", \"NSImage\"]\n\n[target.\"cfg(target_os = \\\"macos\\\")\".dependencies.objc2-web-kit]\nversion = \"0.3.2\"\ndefault-features = false\nfeatures = [\"objc2-app-kit\", \"WKWebView\", \"WKWebViewConfiguration\", \"WKUserContentController\"]\n\n[target.\"cfg(windows)\".dependencies]\nwindow-vibrancy = \"0.6\"\n\n[target.\"cfg(windows)\".dependencies.webview2-com]\nversion = \"0.38\"\noptional = true\n\n[target.\"cfg(windows)\".dependencies.windows]\nversion = \"0.61\"\nfeatures = [\"Win32_Foundation\", \"Win32_UI\", \"Win32_UI_WindowsAndMessaging\"]\n\n[target.\"cfg(target_os = \\\"android\\\")\".dependencies]\njni = \"0.21\"\n\n[target.\"cfg(all(target_vendor = \\\"apple\\\", not(target_os = \\\"macos\\\")))\".dependencies]\nlibc = \"0.2\"\nswift-rs = \"1.0.8\"\n\n[target.\"cfg(all(target_vendor = \\\"apple\\\", not(target_os = \\\"macos\\\")))\".dependencies.objc2-ui-kit]\nversion = \"0.3.2\"\ndefault-features = false\nfeatures = [\"UIApplication\", \"UIResponder\", \"UIView\"]\n\n[build-dependencies]\nglob = \"0.3\"\nheck = \"0.5\"\n\n[build-dependencies.tauri-build]\nversion = \"2.6.3\"\npath = \"./crates/tauri-build\"\ndefault-features = false\n\n[build-dependencies.tauri-utils]\nfeatures = [\"build-2\"]\nversion = \"~2.9.3\"\npath = \"./crates/tauri-utils\"\n\n[dev-dependencies]\nproptest = \"1.6.0\"\nquickcheck = \"1.0.3\"\nquickcheck_macros = \"1.0.0\"\nserde_json = \"1\"\ncargo_toml = \"1.0\"\nhttp-range = \"0.1.5\"\n\n[dev-dependencies.serde]\nversion = \"1\"\nfeatures = [\"derive\"]\n\n[dev-dependencies.tauri]\npath = \".\"\ndefault-features = false\n\n[dev-dependencies.tokio]\nversion = \"1\"\nfeatures = [\"full\"]\n\n[features]\ndefault = [\"wry\", \"compression\", \"common-controls-v6\", \"dynamic-acl\", \"x11\", \"dbus\"]\nunstable = [\"tauri-runtime-wry?/unstable\"]\nx11 = [\"tauri-runtime-wry?/x11\"]\ndbus = [\"tauri-runtime-wry?/dbus\"]\ncommon-controls-v6 = [\"tray-icon?/common-controls-v6\", \"muda/common-controls-v6\", \"tauri-runtime-wry?/common-controls-v6\"]\ntray-icon = [\"dep:tray-icon\"]\ntracing = [\"dep:tracing\", \"tauri-macros/tracing\", \"tauri-runtime-wry?/tracing\"]\ntest = []\ncompression = [\"tauri-macros/compression\", \"tauri-utils/compression\"]\nwry = [\"dep:webview2-com\", \"dep:webkit2gtk\", \"dep:tauri-runtime-wry\"]\ncef = [\"dep:tauri-runtime-cef\"]\nobjc-exception = []\nlinux-libxdo = [\"tray-icon/libxdo\", \"muda/libxdo\"]\nisolation = [\"tauri-utils/isolation\", \"tauri-macros/isolation\", \"uuid\"]\ncustom-protocol = [\"tauri-macros/custom-protocol\"]\nnative-tls = [\"reqwest/native-tls\"]\nnative-tls-vendored = [\"reqwest/native-tls-vendored\"]\nrustls-tls = [\"reqwest/rustls-no-provider\", \"dep:rustls\"]\ndevtools = [\"tauri-runtime/devtools\", \"tauri-runtime-wry?/devtools\", \"tauri-runtime-cef?/devtools\"]\nprocess-relaunch-dangerous-allow-symlink-macos = [\"tauri-utils/process-relaunch-dangerous-allow-symlink-macos\"]\nmacos-private-api = [\"tauri-runtime/macos-private-api\", \"tauri-runtime-wry?/macos-private-api\", \"tauri-runtime-cef?/macos-private-api\"]\nwebview-data-url = [\"data-url\", \"tauri-utils/html-manipulation-2\"]\nprotocol-asset = [\"http-range\"]\nconfig-json5 = [\"tauri-macros/config-json5\"]\nconfig-toml = [\"tauri-macros/config-toml\"]\nimage-ico = [\"image/ico\"]\nimage-png = [\"image/png\"]\nmacos-proxy = [\"tauri-runtime-wry?/macos-proxy\"]\ndynamic-acl = []\nspecta = [\"dep:specta\"]\n\n[[example]]\nname = \"commands\"\npath = \"../../examples/commands/main.rs\"\n\n[[example]]\nname = \"helloworld\"\npath = \"../../examples/helloworld/main.rs\"\n\n[[example]]\nname = \"drag\"\npath = \"../../examples/drag/main.rs\"\n\n[[example]]\nname = \"multiwebview\"\npath = \"../../examples/multiwebview/main.rs\"\nrequired-features = [\"unstable\"]\n\n[[example]]\nname = \"multiwindow\"\npath = \"../../examples/multiwindow/main.rs\"\n\n[[example]]\nname = \"run-return\"\npath = \"../../examples/run-return/main.rs\"\n\n[[example]]\nname = \"splashscreen\"\npath = \"../../examples/splashscreen/main.rs\"\n\n[[example]]\nname = \"state\"\npath = \"../../examples/state/main.rs\"\n\n[[example]]\nname = \"streaming\"\npath = \"../../examples/streaming/main.rs\"\n\n[[example]]\nname = \"isolation\"\npath = \"../../examples/isolation/main.rs\"\nrequired-features = [\"isolation\"]\n",
+        "contents": "[package]\nname = \"tauri\"\nversion = \"2.11.5\"\ndescription = \"Make tiny, secure apps for all desktop platforms with Tauri\"\nexclude = [\"/test\", \"/.scripts\", \"CHANGELOG.md\", \"/target\"]\nreadme = \"README.md\"\nlinks = \"Tauri\"\nauthors = [\"Tauri Programme within The Commons Conservancy\"]\nhomepage = \"https://tauri.app/\"\nrepository = \"https://github.com/tauri-apps/tauri\"\ncategories = [\"gui\", \"web-programming\"]\nlicense = \"Apache-2.0 OR MIT\"\nedition = \"2024\"\nrust-version = \"1.95\"\n\n[package.metadata.docs.rs]\nno-default-features = true\nfeatures = [\"unstable\", \"custom-protocol\", \"tray-icon\", \"devtools\", \"image-png\", \"protocol-asset\", \"test\", \"specta\", \"dynamic-acl\", \"isolation\"]\ndefault-target = \"x86_64-unknown-linux-gnu\"\ntargets = [\"x86_64-pc-windows-msvc\", \"x86_64-unknown-linux-gnu\", \"x86_64-apple-darwin\", \"x86_64-linux-android\", \"x86_64-apple-ios\"]\n\n[package.metadata.cargo-udeps.ignore]\nnormal = [\"reqwest\"]\nbuild = [\"tauri-build\"]\ndevelopment = [\"quickcheck_macros\"]\n\n[dependencies]\nurl = \"2\"\nanyhow = \"1\"\nthiserror = \"2\"\ngetrandom = \"0.3\"\nserde_repr = \"0.1\"\nhttp = \"1\"\ndirs = \"6\"\npercent-encoding = \"2\"\nglob = \"0.3\"\nmime = \"0.3\"\nserialize-to-javascript = \"0.1.2\"\nheck = \"0.5\"\nlog = \"0.4.21\"\ndunce = \"1\"\ncookie = \"0.18\"\n\n[dependencies.serde_json]\nversion = \"1\"\nfeatures = [\"raw_value\"]\n\n[dependencies.serde]\nversion = \"1\"\nfeatures = [\"derive\", \"rc\"]\n\n[dependencies.tokio]\nversion = \"1\"\nfeatures = [\"rt\", \"rt-multi-thread\", \"sync\", \"fs\", \"io-util\"]\n\n[dependencies.uuid]\nversion = \"1\"\nfeatures = [\"v4\"]\noptional = true\n\n[dependencies.tauri-runtime]\nversion = \"~2.11.3\"\npath = \"./crates/tauri-runtime\"\n\n[dependencies.tauri-macros]\nversion = \"~2.6.3\"\npath = \"./crates/tauri-macros\"\n\n[dependencies.tauri-utils]\nfeatures = [\"resources\"]\nversion = \"~2.9.3\"\npath = \"./crates/tauri-utils\"\n\n[dependencies.raw-window-handle]\nversion = \"0.6\"\nfeatures = [\"std\"]\n\n[dependencies.data-url]\nversion = \"0.3\"\noptional = true\n\n[dependencies.image]\nversion = \"0.25\"\ndefault-features = false\noptional = true\n\n[dependencies.http-range]\nversion = \"0.1\"\noptional = true\n\n[dependencies.tracing]\nversion = \"0.1\"\noptional = true\n\n[dependencies.specta]\nversion = \"^2.0.0-rc.25\"\noptional = true\ndefault-features = false\nfeatures = [\"function\", \"derive\", \"std\"]\n\n[dependencies.bytes]\nversion = \"1\"\nfeatures = [\"serde\"]\n\n[dependencies.reqwest]\nversion = \"0.13\"\ndefault-features = false\nfeatures = [\"json\", \"stream\"]\n\n[dependencies.rustls]\nversion = \"0.23\"\ndefault-features = false\nfeatures = [\"ring\"]\noptional = true\n\n[target.\"cfg(any(target_os = \\\"linux\\\", target_os = \\\"dragonfly\\\", target_os = \\\"freebsd\\\", target_os = \\\"openbsd\\\", target_os = \\\"netbsd\\\", target_os = \\\"windows\\\", target_os = \\\"macos\\\"))\".dependencies.muda]\nversion = \"0.19\"\ndefault-features = false\nfeatures = [\"serde\", \"gtk\"]\n\n[target.\"cfg(any(target_os = \\\"linux\\\", target_os = \\\"dragonfly\\\", target_os = \\\"freebsd\\\", target_os = \\\"openbsd\\\", target_os = \\\"netbsd\\\", target_os = \\\"windows\\\", target_os = \\\"macos\\\"))\".dependencies.tray-icon]\nversion = \"0.24\"\ndefault-features = false\nfeatures = [\"serde\", \"gtk\"]\noptional = true\n\n[target.\"cfg(any(target_os = \\\"linux\\\", target_os = \\\"dragonfly\\\", target_os = \\\"freebsd\\\", target_os = \\\"openbsd\\\", target_os = \\\"netbsd\\\"))\".dependencies.gtk]\nversion = \"0.18\"\nfeatures = [\"v3_24\"]\n\n[target.\"cfg(target_vendor = \\\"apple\\\")\".dependencies]\nobjc2 = \"0.6\"\n\n[target.\"cfg(target_os = \\\"macos\\\")\".dependencies]\nembed_plist = \"1.2\"\nplist = \"1\"\nwindow-vibrancy = \"0.6\"\n\n[target.\"cfg(target_os = \\\"macos\\\")\".dependencies.objc2-foundation]\nversion = \"0.3.2\"\ndefault-features = false\nfeatures = [\"std\", \"NSData\", \"NSThread\"]\n\n[target.\"cfg(target_os = \\\"macos\\\")\".dependencies.objc2-app-kit]\nversion = \"0.3.2\"\ndefault-features = false\nfeatures = [\"std\", \"NSApplication\", \"NSColor\", \"NSResponder\", \"NSView\", \"NSWindow\", \"NSImage\"]\n\n[target.\"cfg(target_os = \\\"macos\\\")\".dependencies.objc2-web-kit]\nversion = \"0.3.2\"\ndefault-features = false\nfeatures = [\"objc2-app-kit\", \"WKWebView\", \"WKWebViewConfiguration\", \"WKUserContentController\"]\n\n[target.\"cfg(windows)\".dependencies]\nwindow-vibrancy = \"0.6\"\n\n[target.\"cfg(windows)\".dependencies.windows]\nversion = \"0.61\"\nfeatures = [\"Win32_Foundation\", \"Win32_UI\", \"Win32_UI_WindowsAndMessaging\"]\n\n[target.\"cfg(target_os = \\\"android\\\")\".dependencies]\njni = \"0.21\"\n\n[target.\"cfg(all(target_vendor = \\\"apple\\\", not(target_os = \\\"macos\\\")))\".dependencies]\nlibc = \"0.2\"\nswift-rs = \"1.0.8\"\n\n[target.\"cfg(all(target_vendor = \\\"apple\\\", not(target_os = \\\"macos\\\")))\".dependencies.objc2-ui-kit]\nversion = \"0.3.2\"\ndefault-features = false\nfeatures = [\"UIApplication\", \"UIResponder\", \"UIView\"]\n\n[build-dependencies]\nglob = \"0.3\"\nheck = \"0.5\"\n\n[build-dependencies.tauri-build]\nversion = \"2.6.3\"\npath = \"./crates/tauri-build\"\ndefault-features = false\n\n[build-dependencies.tauri-utils]\nfeatures = [\"build-2\"]\nversion = \"~2.9.3\"\npath = \"./crates/tauri-utils\"\n\n[dev-dependencies]\nproptest = \"1.6.0\"\nquickcheck = \"1.0.3\"\nquickcheck_macros = \"1.0.0\"\nserde_json = \"1\"\ncargo_toml = \"1.0\"\nhttp-range = \"0.1.5\"\n\n[dev-dependencies.serde]\nversion = \"1\"\nfeatures = [\"derive\"]\n\n[dev-dependencies.tauri]\npath = \".\"\ndefault-features = false\n\n[dev-dependencies.tokio]\nversion = \"1\"\nfeatures = [\"full\"]\n\n[features]\ndefault = [\"compression\", \"common-controls-v6\", \"dynamic-acl\"]\nwry = []\nx11 = []\ndbus = []\nunstable = []\ncommon-controls-v6 = [\"tray-icon?/common-controls-v6\", \"muda/common-controls-v6\"]\ntray-icon = [\"dep:tray-icon\"]\ntracing = [\"dep:tracing\", \"tauri-macros/tracing\"]\ntest = []\ncompression = [\"tauri-macros/compression\", \"tauri-utils/compression\"]\nobjc-exception = []\nlinux-libxdo = [\"tray-icon/libxdo\", \"muda/libxdo\"]\nisolation = [\"tauri-utils/isolation\", \"tauri-macros/isolation\", \"uuid\"]\ncustom-protocol = [\"tauri-macros/custom-protocol\"]\nnative-tls = [\"reqwest/native-tls\"]\nnative-tls-vendored = [\"reqwest/native-tls-vendored\"]\nrustls-tls = [\"reqwest/rustls-no-provider\", \"dep:rustls\"]\ndevtools = [\"tauri-runtime/devtools\"]\nprocess-relaunch-dangerous-allow-symlink-macos = [\"tauri-utils/process-relaunch-dangerous-allow-symlink-macos\"]\nmacos-private-api = [\"tauri-runtime/macos-private-api\"]\nwebview-data-url = [\"data-url\", \"tauri-utils/html-manipulation-2\"]\nprotocol-asset = [\"http-range\"]\nconfig-json5 = [\"tauri-macros/config-json5\"]\nconfig-toml = [\"tauri-macros/config-toml\"]\nimage-ico = [\"image/ico\"]\nimage-png = [\"image/png\"]\ndynamic-acl = []\nspecta = [\"dep:specta\"]\n",
         "dest": "cargo/vendor/tauri",
         "dest-filename": "Cargo.toml"
     },
@@ -10248,7 +10547,7 @@
     {
         "type": "shell",
         "commands": [
-            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-48d8802/crates/tauri-build\" \"cargo/vendor/tauri-build\""
+            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-f238ea5/crates/tauri-build\" \"cargo/vendor/tauri-build\""
         ]
     },
     {
@@ -10266,7 +10565,7 @@
     {
         "type": "shell",
         "commands": [
-            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-48d8802/crates/tauri-codegen\" \"cargo/vendor/tauri-codegen\""
+            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-f238ea5/crates/tauri-codegen\" \"cargo/vendor/tauri-codegen\""
         ]
     },
     {
@@ -10284,7 +10583,7 @@
     {
         "type": "shell",
         "commands": [
-            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-48d8802/crates/tauri-macros\" \"cargo/vendor/tauri-macros\""
+            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-f238ea5/crates/tauri-macros\" \"cargo/vendor/tauri-macros\""
         ]
     },
     {
@@ -10302,7 +10601,7 @@
     {
         "type": "shell",
         "commands": [
-            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-48d8802/crates/tauri-plugin\" \"cargo/vendor/tauri-plugin\""
+            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-f238ea5/crates/tauri-plugin\" \"cargo/vendor/tauri-plugin\""
         ]
     },
     {
@@ -10320,7 +10619,7 @@
     {
         "type": "shell",
         "commands": [
-            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-plugins-workspace-1423992/plugins/biometric\" \"cargo/vendor/tauri-plugin-biometric\""
+            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-plugins-workspace-835adce/plugins/biometric\" \"cargo/vendor/tauri-plugin-biometric\""
         ]
     },
     {
@@ -10338,7 +10637,7 @@
     {
         "type": "shell",
         "commands": [
-            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-plugins-workspace-1423992/plugins/cli\" \"cargo/vendor/tauri-plugin-cli\""
+            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-plugins-workspace-835adce/plugins/cli\" \"cargo/vendor/tauri-plugin-cli\""
         ]
     },
     {
@@ -10356,12 +10655,12 @@
     {
         "type": "shell",
         "commands": [
-            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-plugins-workspace-1423992/plugins/clipboard-manager\" \"cargo/vendor/tauri-plugin-clipboard-manager\""
+            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-plugins-workspace-835adce/plugins/clipboard-manager\" \"cargo/vendor/tauri-plugin-clipboard-manager\""
         ]
     },
     {
         "type": "inline",
-        "contents": "[package]\nname = \"tauri-plugin-clipboard-manager\"\nversion = \"2.3.2\"\ndescription = \"Read and write to the system clipboard.\"\nedition = \"2021\"\nauthors = [\"Tauri Programme within The Commons Conservancy\"]\nlicense = \"Apache-2.0 OR MIT\"\nrust-version = \"1.77.2\"\nrepository = \"https://github.com/tauri-apps/plugins-workspace\"\nlinks = \"tauri-plugin-clipboard-manager\"\n\n[package.metadata.docs.rs]\ntargets = [\"x86_64-unknown-linux-gnu\", \"x86_64-linux-android\"]\n\n[package.metadata.platforms.support.windows]\nlevel = \"full\"\nnotes = \"\"\n\n[package.metadata.platforms.support.linux]\nlevel = \"full\"\nnotes = \"\"\n\n[package.metadata.platforms.support.macos]\nlevel = \"full\"\nnotes = \"\"\n\n[package.metadata.platforms.support.android]\nlevel = \"partial\"\nnotes = \"Only plain-text content support\"\n\n[package.metadata.platforms.support.ios]\nlevel = \"partial\"\nnotes = \"Only plain-text content support\"\n\n[build-dependencies.tauri-plugin]\nfeatures = [\"build\"]\nversion = \"2.5\"\n\n[dependencies]\nserde_json = \"1\"\nlog = \"0.4\"\nthiserror = \"2\"\n\n[dependencies.serde]\nversion = \"1\"\nfeatures = [\"derive\"]\n\n[dependencies.tauri]\nversion = \"2.10\"\ndefault-features = false\n\n[target.\"cfg(target_os = \\\"ios\\\")\".dependencies.tauri]\nfeatures = [\"wry\"]\nversion = \"2.10\"\ndefault-features = false\n\n[target.\"cfg(any(target_os = \\\"macos\\\", windows, target_os = \\\"linux\\\", target_os = \\\"dragonfly\\\", target_os = \\\"freebsd\\\", target_os = \\\"openbsd\\\", target_os = \\\"netbsd\\\"))\".dependencies.arboard]\nversion = \"3\"\nfeatures = [\"wayland-data-control\"]\n",
+        "contents": "[package]\nname = \"tauri-plugin-clipboard-manager\"\nversion = \"2.3.2\"\ndescription = \"Read and write to the system clipboard.\"\nedition = \"2021\"\nauthors = [\"Tauri Programme within The Commons Conservancy\"]\nlicense = \"Apache-2.0 OR MIT\"\nrust-version = \"1.77.2\"\nrepository = \"https://github.com/tauri-apps/plugins-workspace\"\nlinks = \"tauri-plugin-clipboard-manager\"\n\n[package.metadata.docs.rs]\ntargets = [\"x86_64-unknown-linux-gnu\", \"x86_64-linux-android\"]\n\n[package.metadata.platforms.support.windows]\nlevel = \"full\"\nnotes = \"\"\n\n[package.metadata.platforms.support.linux]\nlevel = \"full\"\nnotes = \"\"\n\n[package.metadata.platforms.support.macos]\nlevel = \"full\"\nnotes = \"\"\n\n[package.metadata.platforms.support.android]\nlevel = \"partial\"\nnotes = \"Only plain-text content support\"\n\n[package.metadata.platforms.support.ios]\nlevel = \"partial\"\nnotes = \"Only plain-text content support\"\n\n[build-dependencies.tauri-plugin]\nfeatures = [\"build\"]\nversion = \"2.5\"\n\n[dependencies]\nserde_json = \"1\"\nlog = \"0.4\"\nthiserror = \"2\"\n\n[dependencies.serde]\nversion = \"1\"\nfeatures = [\"derive\"]\n\n[dependencies.tauri]\nversion = \"2.10\"\ndefault-features = false\n\n[target.\"cfg(any(target_os = \\\"macos\\\", windows, target_os = \\\"linux\\\", target_os = \\\"dragonfly\\\", target_os = \\\"freebsd\\\", target_os = \\\"openbsd\\\", target_os = \\\"netbsd\\\"))\".dependencies.arboard]\nversion = \"3\"\nfeatures = [\"wayland-data-control\"]\n",
         "dest": "cargo/vendor/tauri-plugin-clipboard-manager",
         "dest-filename": "Cargo.toml"
     },
@@ -10374,7 +10673,7 @@
     {
         "type": "shell",
         "commands": [
-            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-plugins-workspace-1423992/plugins/deep-link\" \"cargo/vendor/tauri-plugin-deep-link\""
+            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-plugins-workspace-835adce/plugins/deep-link\" \"cargo/vendor/tauri-plugin-deep-link\""
         ]
     },
     {
@@ -10405,12 +10704,12 @@
     {
         "type": "shell",
         "commands": [
-            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-plugins-workspace-1423992/plugins/dialog\" \"cargo/vendor/tauri-plugin-dialog\""
+            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-plugins-workspace-835adce/plugins/dialog\" \"cargo/vendor/tauri-plugin-dialog\""
         ]
     },
     {
         "type": "inline",
-        "contents": "[package]\nname = \"tauri-plugin-dialog\"\nversion = \"2.7.1\"\ndescription = \"Native system dialogs for opening and saving files along with message dialogs on your Tauri application.\"\nedition = \"2021\"\nauthors = [\"Tauri Programme within The Commons Conservancy\"]\nlicense = \"Apache-2.0 OR MIT\"\nrust-version = \"1.77.2\"\nrepository = \"https://github.com/tauri-apps/plugins-workspace\"\nlinks = \"tauri-plugin-dialog\"\n\n[package.metadata.docs.rs]\ntargets = [\"x86_64-unknown-linux-gnu\", \"x86_64-linux-android\"]\n\n[package.metadata.platforms.support.windows]\nlevel = \"full\"\nnotes = \"\"\n\n[package.metadata.platforms.support.linux]\nlevel = \"full\"\nnotes = \"\"\n\n[package.metadata.platforms.support.macos]\nlevel = \"full\"\nnotes = \"\"\n\n[package.metadata.platforms.support.android]\nlevel = \"partial\"\nnotes = \"Does not support folder picker\"\n\n[package.metadata.platforms.support.ios]\nlevel = \"partial\"\nnotes = \"Does not support folder picker\"\n\n[features]\ndefault = [\"gtk3\"]\nxdg-portal = [\"rfd/xdg-portal\", \"rfd/tokio\", \"rfd/wayland\"]\ngtk3 = [\"rfd/gtk3\"]\n\n[build-dependencies.tauri-plugin]\nfeatures = [\"build\"]\nversion = \"2.5\"\n\n[dev-dependencies.tauri]\nfeatures = [\"wry\"]\nversion = \"2.10\"\ndefault-features = false\n\n[dependencies]\nserde_json = \"1\"\nlog = \"0.4\"\nthiserror = \"2\"\nurl = \"2\"\n\n[dependencies.serde]\nversion = \"1\"\nfeatures = [\"derive\"]\n\n[dependencies.tauri]\nversion = \"2.10\"\ndefault-features = false\n\n[dependencies.tauri-plugin-fs]\npath = \"../fs\"\nversion = \"2.5.1\"\n\n[target.\"cfg(target_os = \\\"ios\\\")\".dependencies.tauri]\nfeatures = [\"wry\"]\nversion = \"2.10\"\ndefault-features = false\n\n[target.\"cfg(any(target_os = \\\"macos\\\", windows, target_os = \\\"linux\\\", target_os = \\\"dragonfly\\\", target_os = \\\"freebsd\\\", target_os = \\\"openbsd\\\", target_os = \\\"netbsd\\\"))\".dependencies]\nraw-window-handle = \"0.6\"\n\n[target.\"cfg(any(target_os = \\\"macos\\\", windows, target_os = \\\"linux\\\", target_os = \\\"dragonfly\\\", target_os = \\\"freebsd\\\", target_os = \\\"openbsd\\\", target_os = \\\"netbsd\\\"))\".dependencies.rfd]\nversion = \"0.16\"\ndefault-features = false\nfeatures = [\"common-controls-v6\"]\n",
+        "contents": "[package]\nname = \"tauri-plugin-dialog\"\nversion = \"2.7.1\"\ndescription = \"Native system dialogs for opening and saving files along with message dialogs on your Tauri application.\"\nedition = \"2021\"\nauthors = [\"Tauri Programme within The Commons Conservancy\"]\nlicense = \"Apache-2.0 OR MIT\"\nrust-version = \"1.77.2\"\nrepository = \"https://github.com/tauri-apps/plugins-workspace\"\nlinks = \"tauri-plugin-dialog\"\n\n[package.metadata.docs.rs]\ntargets = [\"x86_64-unknown-linux-gnu\", \"x86_64-linux-android\"]\n\n[package.metadata.platforms.support.windows]\nlevel = \"full\"\nnotes = \"\"\n\n[package.metadata.platforms.support.linux]\nlevel = \"full\"\nnotes = \"\"\n\n[package.metadata.platforms.support.macos]\nlevel = \"full\"\nnotes = \"\"\n\n[package.metadata.platforms.support.android]\nlevel = \"partial\"\nnotes = \"Does not support folder picker\"\n\n[package.metadata.platforms.support.ios]\nlevel = \"partial\"\nnotes = \"Does not support folder picker\"\n\n[features]\ndefault = [\"gtk3\"]\nxdg-portal = [\"rfd/xdg-portal\", \"rfd/tokio\", \"rfd/wayland\"]\ngtk3 = [\"rfd/gtk3\"]\n\n[build-dependencies.tauri-plugin]\nfeatures = [\"build\"]\nversion = \"2.5\"\n\n[dependencies]\nserde_json = \"1\"\nlog = \"0.4\"\nthiserror = \"2\"\nurl = \"2\"\n\n[dependencies.serde]\nversion = \"1\"\nfeatures = [\"derive\"]\n\n[dependencies.tauri]\nversion = \"2.10\"\ndefault-features = false\n\n[dependencies.tauri-plugin-fs]\npath = \"../fs\"\nversion = \"2.5.1\"\n\n[target.\"cfg(any(target_os = \\\"macos\\\", windows, target_os = \\\"linux\\\", target_os = \\\"dragonfly\\\", target_os = \\\"freebsd\\\", target_os = \\\"openbsd\\\", target_os = \\\"netbsd\\\"))\".dependencies]\nraw-window-handle = \"0.6\"\n\n[target.\"cfg(any(target_os = \\\"macos\\\", windows, target_os = \\\"linux\\\", target_os = \\\"dragonfly\\\", target_os = \\\"freebsd\\\", target_os = \\\"openbsd\\\", target_os = \\\"netbsd\\\"))\".dependencies.rfd]\nversion = \"0.16\"\ndefault-features = false\nfeatures = [\"common-controls-v6\"]\n",
         "dest": "cargo/vendor/tauri-plugin-dialog",
         "dest-filename": "Cargo.toml"
     },
@@ -10423,7 +10722,7 @@
     {
         "type": "shell",
         "commands": [
-            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-plugins-workspace-1423992/plugins/fs\" \"cargo/vendor/tauri-plugin-fs\""
+            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-plugins-workspace-835adce/plugins/fs\" \"cargo/vendor/tauri-plugin-fs\""
         ]
     },
     {
@@ -10441,12 +10740,12 @@
     {
         "type": "shell",
         "commands": [
-            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-plugins-workspace-1423992/plugins/haptics\" \"cargo/vendor/tauri-plugin-haptics\""
+            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-plugins-workspace-835adce/plugins/haptics\" \"cargo/vendor/tauri-plugin-haptics\""
         ]
     },
     {
         "type": "inline",
-        "contents": "[package]\nname = \"tauri-plugin-haptics\"\ndescription = \"Haptic feedback and vibrations on Android and iOS\"\nversion = \"2.3.2\"\nedition = \"2021\"\nauthors = [\"Tauri Programme within The Commons Conservancy\"]\nlicense = \"Apache-2.0 OR MIT\"\nrepository = \"https://github.com/tauri-apps/plugins-workspace\"\nlinks = \"tauri-plugin-haptics\"\n\n[package.metadata.docs.rs]\ntargets = [\"x86_64-linux-android\"]\n\n[package.metadata.platforms.support.windows]\nlevel = \"none\"\nnotes = \"\"\n\n[package.metadata.platforms.support.linux]\nlevel = \"none\"\nnotes = \"\"\n\n[package.metadata.platforms.support.macos]\nlevel = \"none\"\nnotes = \"\"\n\n[package.metadata.platforms.support.android]\nlevel = \"full\"\nnotes = \"\"\n\n[package.metadata.platforms.support.ios]\nlevel = \"full\"\nnotes = \"\"\n\n[build-dependencies.tauri-plugin]\nfeatures = [\"build\"]\nversion = \"2.5\"\n\n[dependencies]\nserde_json = \"1\"\nlog = \"0.4\"\nthiserror = \"2\"\n\n[dependencies.serde]\nversion = \"1\"\nfeatures = [\"derive\"]\n\n[dependencies.tauri]\nversion = \"2.10\"\ndefault-features = false\n\n[dependencies.specta]\noptional = true\nversion = \"^2.0.0-rc.16\"\n\n[target.\"cfg(target_os = \\\"ios\\\")\".dependencies.tauri]\nfeatures = [\"wry\"]\nversion = \"2.10\"\ndefault-features = false\n\n[features]\nspecta = [\"dep:specta\", \"tauri/specta\"]\n",
+        "contents": "[package]\nname = \"tauri-plugin-haptics\"\ndescription = \"Haptic feedback and vibrations on Android and iOS\"\nversion = \"2.3.2\"\nedition = \"2021\"\nauthors = [\"Tauri Programme within The Commons Conservancy\"]\nlicense = \"Apache-2.0 OR MIT\"\nrepository = \"https://github.com/tauri-apps/plugins-workspace\"\nlinks = \"tauri-plugin-haptics\"\n\n[package.metadata.docs.rs]\ntargets = [\"x86_64-linux-android\"]\n\n[package.metadata.platforms.support.windows]\nlevel = \"none\"\nnotes = \"\"\n\n[package.metadata.platforms.support.linux]\nlevel = \"none\"\nnotes = \"\"\n\n[package.metadata.platforms.support.macos]\nlevel = \"none\"\nnotes = \"\"\n\n[package.metadata.platforms.support.android]\nlevel = \"full\"\nnotes = \"\"\n\n[package.metadata.platforms.support.ios]\nlevel = \"full\"\nnotes = \"\"\n\n[build-dependencies.tauri-plugin]\nfeatures = [\"build\"]\nversion = \"2.5\"\n\n[dependencies]\nserde_json = \"1\"\nlog = \"0.4\"\nthiserror = \"2\"\n\n[dependencies.serde]\nversion = \"1\"\nfeatures = [\"derive\"]\n\n[dependencies.tauri]\nversion = \"2.10\"\ndefault-features = false\n\n[dependencies.specta]\noptional = true\nversion = \"^2.0.0-rc.16\"\n\n[features]\nspecta = [\"dep:specta\", \"tauri/specta\"]\n",
         "dest": "cargo/vendor/tauri-plugin-haptics",
         "dest-filename": "Cargo.toml"
     },
@@ -10459,7 +10758,7 @@
     {
         "type": "shell",
         "commands": [
-            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-plugins-workspace-1423992/plugins/http\" \"cargo/vendor/tauri-plugin-http\""
+            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-plugins-workspace-835adce/plugins/http\" \"cargo/vendor/tauri-plugin-http\""
         ]
     },
     {
@@ -10477,7 +10776,7 @@
     {
         "type": "shell",
         "commands": [
-            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-plugins-workspace-1423992/plugins/log\" \"cargo/vendor/tauri-plugin-log\""
+            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-plugins-workspace-835adce/plugins/log\" \"cargo/vendor/tauri-plugin-log\""
         ]
     },
     {
@@ -10508,12 +10807,12 @@
     {
         "type": "shell",
         "commands": [
-            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-plugins-workspace-1423992/plugins/opener\" \"cargo/vendor/tauri-plugin-opener\""
+            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-plugins-workspace-835adce/plugins/opener\" \"cargo/vendor/tauri-plugin-opener\""
         ]
     },
     {
         "type": "inline",
-        "contents": "[package]\nname = \"tauri-plugin-opener\"\nversion = \"2.5.4\"\ndescription = \"Open files and URLs using their default application.\"\nedition = \"2021\"\nauthors = [\"Tauri Programme within The Commons Conservancy\"]\nlicense = \"Apache-2.0 OR MIT\"\nrepository = \"https://github.com/tauri-apps/plugins-workspace\"\nlinks = \"tauri-plugin-opener\"\n\n[package.metadata.platforms.support.windows]\nlevel = \"full\"\nnotes = \"\"\n\n[package.metadata.platforms.support.linux]\nlevel = \"full\"\nnotes = \"\"\n\n[package.metadata.platforms.support.macos]\nlevel = \"full\"\nnotes = \"\"\n\n[package.metadata.platforms.support.android]\nlevel = \"partial\"\nnotes = \"Only allows to open URLs via `open`\"\n\n[package.metadata.platforms.support.ios]\nlevel = \"partial\"\nnotes = \"Only allows to open URLs via `open`\"\n\n[build-dependencies]\nschemars = \"1\"\n\n[build-dependencies.tauri-plugin]\nfeatures = [\"build\"]\nversion = \"2.5\"\n\n[build-dependencies.serde]\nversion = \"1\"\nfeatures = [\"derive\"]\n\n[dependencies]\nserde_json = \"1\"\nthiserror = \"2\"\nglob = \"0.3\"\ndunce = \"1\"\n\n[dependencies.serde]\nversion = \"1\"\nfeatures = [\"derive\"]\n\n[dependencies.tauri]\nversion = \"2.10\"\ndefault-features = false\n\n[dependencies.open]\nversion = \"5\"\nfeatures = [\"shellexecute-on-windows\"]\n\n[target.\"cfg(windows)\".dependencies.windows]\nversion = \"0.61\"\nfeatures = [\"Win32_Foundation\", \"Win32_UI_Shell_Common\", \"Win32_UI_WindowsAndMessaging\", \"Win32_System_Com\", \"Win32_System_Registry\", \"Win32_Storage_FileSystem\"]\n\n[target.\"cfg(any(target_os = \\\"linux\\\", target_os = \\\"dragonfly\\\", target_os = \\\"freebsd\\\", target_os = \\\"netbsd\\\", target_os = \\\"openbsd\\\"))\".dependencies]\nzbus = \"5.9\"\nurl = \"2\"\n\n[target.\"cfg(target_os = \\\"macos\\\")\".dependencies.objc2-app-kit]\nversion = \"0.3\"\ndefault-features = false\nfeatures = [\"std\", \"NSWorkspace\"]\n\n[target.\"cfg(target_os = \\\"macos\\\")\".dependencies.objc2-foundation]\nversion = \"0.3\"\ndefault-features = false\nfeatures = [\"std\", \"NSURL\", \"NSArray\", \"NSString\"]\n\n[target.\"cfg(target_os = \\\"ios\\\")\".dependencies.tauri]\nfeatures = [\"wry\"]\nversion = \"2.10\"\ndefault-features = false\n",
+        "contents": "[package]\nname = \"tauri-plugin-opener\"\nversion = \"2.5.4\"\ndescription = \"Open files and URLs using their default application.\"\nedition = \"2021\"\nauthors = [\"Tauri Programme within The Commons Conservancy\"]\nlicense = \"Apache-2.0 OR MIT\"\nrepository = \"https://github.com/tauri-apps/plugins-workspace\"\nlinks = \"tauri-plugin-opener\"\n\n[package.metadata.platforms.support.windows]\nlevel = \"full\"\nnotes = \"\"\n\n[package.metadata.platforms.support.linux]\nlevel = \"full\"\nnotes = \"\"\n\n[package.metadata.platforms.support.macos]\nlevel = \"full\"\nnotes = \"\"\n\n[package.metadata.platforms.support.android]\nlevel = \"partial\"\nnotes = \"Only allows to open URLs via `open`\"\n\n[package.metadata.platforms.support.ios]\nlevel = \"partial\"\nnotes = \"Only allows to open URLs via `open`\"\n\n[build-dependencies]\nschemars = \"1\"\n\n[build-dependencies.tauri-plugin]\nfeatures = [\"build\"]\nversion = \"2.5\"\n\n[build-dependencies.serde]\nversion = \"1\"\nfeatures = [\"derive\"]\n\n[dependencies]\nserde_json = \"1\"\nthiserror = \"2\"\nglob = \"0.3\"\ndunce = \"1\"\n\n[dependencies.serde]\nversion = \"1\"\nfeatures = [\"derive\"]\n\n[dependencies.tauri]\nversion = \"2.10\"\ndefault-features = false\n\n[dependencies.open]\nversion = \"5\"\nfeatures = [\"shellexecute-on-windows\"]\n\n[target.\"cfg(windows)\".dependencies.windows]\nversion = \"0.61\"\nfeatures = [\"Win32_Foundation\", \"Win32_UI_Shell_Common\", \"Win32_UI_WindowsAndMessaging\", \"Win32_System_Com\", \"Win32_System_Registry\", \"Win32_Storage_FileSystem\"]\n\n[target.\"cfg(any(target_os = \\\"linux\\\", target_os = \\\"dragonfly\\\", target_os = \\\"freebsd\\\", target_os = \\\"netbsd\\\", target_os = \\\"openbsd\\\"))\".dependencies]\nzbus = \"5.9\"\nurl = \"2\"\n\n[target.\"cfg(target_os = \\\"macos\\\")\".dependencies.objc2-app-kit]\nversion = \"0.3\"\ndefault-features = false\nfeatures = [\"std\", \"NSWorkspace\"]\n\n[target.\"cfg(target_os = \\\"macos\\\")\".dependencies.objc2-foundation]\nversion = \"0.3\"\ndefault-features = false\nfeatures = [\"std\", \"NSURL\", \"NSArray\", \"NSString\"]\n",
         "dest": "cargo/vendor/tauri-plugin-opener",
         "dest-filename": "Cargo.toml"
     },
@@ -10526,7 +10825,7 @@
     {
         "type": "shell",
         "commands": [
-            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-plugins-workspace-1423992/plugins/os\" \"cargo/vendor/tauri-plugin-os\""
+            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-plugins-workspace-835adce/plugins/os\" \"cargo/vendor/tauri-plugin-os\""
         ]
     },
     {
@@ -10544,7 +10843,7 @@
     {
         "type": "shell",
         "commands": [
-            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-plugins-workspace-1423992/plugins/persisted-scope\" \"cargo/vendor/tauri-plugin-persisted-scope\""
+            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-plugins-workspace-835adce/plugins/persisted-scope\" \"cargo/vendor/tauri-plugin-persisted-scope\""
         ]
     },
     {
@@ -10562,7 +10861,7 @@
     {
         "type": "shell",
         "commands": [
-            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-plugins-workspace-1423992/plugins/process\" \"cargo/vendor/tauri-plugin-process\""
+            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-plugins-workspace-835adce/plugins/process\" \"cargo/vendor/tauri-plugin-process\""
         ]
     },
     {
@@ -10606,12 +10905,12 @@
     {
         "type": "shell",
         "commands": [
-            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-plugins-workspace-1423992/plugins/shell\" \"cargo/vendor/tauri-plugin-shell\""
+            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-plugins-workspace-835adce/plugins/shell\" \"cargo/vendor/tauri-plugin-shell\""
         ]
     },
     {
         "type": "inline",
-        "contents": "[package]\nname = \"tauri-plugin-shell\"\nversion = \"2.3.5\"\ndescription = \"Access the system shell. Allows you to spawn child processes and manage files and URLs using their default application.\"\nedition = \"2021\"\nauthors = [\"Tauri Programme within The Commons Conservancy\"]\nlicense = \"Apache-2.0 OR MIT\"\nrust-version = \"1.77.2\"\nrepository = \"https://github.com/tauri-apps/plugins-workspace\"\nlinks = \"tauri-plugin-shell\"\n\n[package.metadata.platforms.support.windows]\nlevel = \"full\"\nnotes = \"\"\n\n[package.metadata.platforms.support.linux]\nlevel = \"full\"\nnotes = \"\"\n\n[package.metadata.platforms.support.macos]\nlevel = \"full\"\nnotes = \"\"\n\n[package.metadata.platforms.support.android]\nlevel = \"partial\"\nnotes = \"Only allows to open URLs via `open`\"\n\n[package.metadata.platforms.support.ios]\nlevel = \"partial\"\nnotes = \"Only allows to open URLs via `open`\"\n\n[build-dependencies]\nschemars = \"1\"\n\n[build-dependencies.tauri-plugin]\nfeatures = [\"build\"]\nversion = \"2.5\"\n\n[build-dependencies.serde]\nversion = \"1\"\nfeatures = [\"derive\"]\n\n[dependencies]\nserde_json = \"1\"\nlog = \"0.4\"\nthiserror = \"2\"\nshared_child = \"1\"\nregex = \"1\"\nencoding_rs = \"0.8\"\nos_pipe = \"1\"\n\n[dependencies.serde]\nversion = \"1\"\nfeatures = [\"derive\"]\n\n[dependencies.tauri]\nversion = \"2.10\"\ndefault-features = false\n\n[dependencies.tokio]\nversion = \"1\"\nfeatures = [\"time\"]\n\n[dependencies.open]\nversion = \"5\"\nfeatures = [\"shellexecute-on-windows\"]\n\n[target.\"cfg(target_os = \\\"ios\\\")\".dependencies.tauri]\nfeatures = [\"wry\"]\nversion = \"2.10\"\ndefault-features = false\n",
+        "contents": "[package]\nname = \"tauri-plugin-shell\"\nversion = \"2.3.5\"\ndescription = \"Access the system shell. Allows you to spawn child processes and manage files and URLs using their default application.\"\nedition = \"2021\"\nauthors = [\"Tauri Programme within The Commons Conservancy\"]\nlicense = \"Apache-2.0 OR MIT\"\nrust-version = \"1.77.2\"\nrepository = \"https://github.com/tauri-apps/plugins-workspace\"\nlinks = \"tauri-plugin-shell\"\n\n[package.metadata.platforms.support.windows]\nlevel = \"full\"\nnotes = \"\"\n\n[package.metadata.platforms.support.linux]\nlevel = \"full\"\nnotes = \"\"\n\n[package.metadata.platforms.support.macos]\nlevel = \"full\"\nnotes = \"\"\n\n[package.metadata.platforms.support.android]\nlevel = \"partial\"\nnotes = \"Only allows to open URLs via `open`\"\n\n[package.metadata.platforms.support.ios]\nlevel = \"partial\"\nnotes = \"Only allows to open URLs via `open`\"\n\n[build-dependencies]\nschemars = \"1\"\n\n[build-dependencies.tauri-plugin]\nfeatures = [\"build\"]\nversion = \"2.5\"\n\n[build-dependencies.serde]\nversion = \"1\"\nfeatures = [\"derive\"]\n\n[dependencies]\nserde_json = \"1\"\nlog = \"0.4\"\nthiserror = \"2\"\nshared_child = \"1\"\nregex = \"1\"\nencoding_rs = \"0.8\"\nos_pipe = \"1\"\n\n[dependencies.serde]\nversion = \"1\"\nfeatures = [\"derive\"]\n\n[dependencies.tauri]\nversion = \"2.10\"\ndefault-features = false\n\n[dependencies.tokio]\nversion = \"1\"\nfeatures = [\"time\"]\n\n[dependencies.open]\nversion = \"5\"\nfeatures = [\"shellexecute-on-windows\"]\n",
         "dest": "cargo/vendor/tauri-plugin-shell",
         "dest-filename": "Cargo.toml"
     },
@@ -10637,7 +10936,7 @@
     {
         "type": "shell",
         "commands": [
-            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-plugins-workspace-1423992/plugins/single-instance\" \"cargo/vendor/tauri-plugin-single-instance\""
+            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-plugins-workspace-835adce/plugins/single-instance\" \"cargo/vendor/tauri-plugin-single-instance\""
         ]
     },
     {
@@ -10655,7 +10954,7 @@
     {
         "type": "shell",
         "commands": [
-            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-plugins-workspace-1423992/plugins/updater\" \"cargo/vendor/tauri-plugin-updater\""
+            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-plugins-workspace-835adce/plugins/updater\" \"cargo/vendor/tauri-plugin-updater\""
         ]
     },
     {
@@ -10686,7 +10985,7 @@
     {
         "type": "shell",
         "commands": [
-            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-plugins-workspace-1423992/plugins/websocket\" \"cargo/vendor/tauri-plugin-websocket\""
+            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-plugins-workspace-835adce/plugins/websocket\" \"cargo/vendor/tauri-plugin-websocket\""
         ]
     },
     {
@@ -10704,7 +11003,7 @@
     {
         "type": "shell",
         "commands": [
-            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-plugins-workspace-1423992/plugins/window-state\" \"cargo/vendor/tauri-plugin-window-state\""
+            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-plugins-workspace-835adce/plugins/window-state\" \"cargo/vendor/tauri-plugin-window-state\""
         ]
     },
     {
@@ -10722,7 +11021,7 @@
     {
         "type": "shell",
         "commands": [
-            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-48d8802/crates/tauri-runtime\" \"cargo/vendor/tauri-runtime\""
+            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-f238ea5/crates/tauri-runtime\" \"cargo/vendor/tauri-runtime\""
         ]
     },
     {
@@ -10740,12 +11039,12 @@
     {
         "type": "shell",
         "commands": [
-            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-48d8802/crates/tauri-runtime-cef\" \"cargo/vendor/tauri-runtime-cef\""
+            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-f238ea5/crates/tauri-runtime-cef\" \"cargo/vendor/tauri-runtime-cef\""
         ]
     },
     {
         "type": "inline",
-        "contents": "[package]\nname = \"tauri-runtime-cef\"\nversion = \"0.1.0\"\nauthors = [\"Tauri Programme within The Commons Conservancy\"]\nhomepage = \"https://tauri.app/\"\nrepository = \"https://github.com/tauri-apps/tauri\"\ncategories = [\"gui\", \"web-programming\"]\nlicense = \"Apache-2.0 OR MIT\"\nedition = \"2024\"\nrust-version = \"1.95\"\n\n[dependencies]\nbase64 = \"0.22\"\ndirs = \"6\"\ndioxus-debug-cell = \"0.1\"\nhttp = \"1\"\nhtml5ever = \"0.29\"\nlog = \"0.4.21\"\nraw-window-handle = \"0.6\"\nserde_json = \"1\"\nsha2 = \"0.10\"\nurl = \"2\"\nwinit = \"0.31.0-beta.2\"\n\n[dependencies.cef]\nversion = \"=151.8.1\"\nfeatures = [\"build-util\", \"linux-x11\"]\n\n[dependencies.cef-dll-sys]\nversion = \"=151.8.1\"\ndefault-features = false\n\n[dependencies.kuchiki]\npackage = \"kuchikiki\"\nversion = \"0.8.8-speedreader\"\n\n[dependencies.serde]\nversion = \"1\"\nfeatures = [\"derive\"]\n\n[dependencies.tauri-runtime]\nversion = \"2.11.2\"\npath = \"../tauri-runtime\"\n\n[dependencies.tauri-utils]\nversion = \"2.9.2\"\npath = \"../tauri-utils\"\nfeatures = [\"html-manipulation\"]\n\n[target.\"cfg(windows)\".dependencies.softbuffer]\nversion = \"0.4\"\ndefault-features = false\n\n[target.\"cfg(windows)\".dependencies.windows]\nversion = \"0.61\"\nfeatures = [\"Win32_Foundation\", \"Win32_Graphics_Dwm\", \"Win32_Graphics_Gdi\", \"Win32_System_Com\", \"Win32_System_LibraryLoader\", \"Win32_UI_Input_KeyboardAndMouse\", \"Win32_UI_Shell\", \"Win32_UI_WindowsAndMessaging\"]\n\n[target.\"cfg(target_os = \\\"macos\\\")\".dependencies]\nobjc2 = \"0.6\"\n\n[target.\"cfg(target_os = \\\"macos\\\")\".dependencies.objc2-application-services]\nversion = \"0.3\"\ndefault-features = false\nfeatures = [\"HIServices\", \"Processes\"]\n\n[target.\"cfg(target_os = \\\"macos\\\")\".dependencies.objc2-app-kit]\nversion = \"0.3\"\ndefault-features = false\nfeatures = [\"NSApplication\", \"NSBezierPath\", \"NSColor\", \"NSControl\", \"NSDockTile\", \"NSEvent\", \"NSImage\", \"NSImageView\", \"NSProgressIndicator\", \"NSResponder\", \"NSRunningApplication\", \"NSScreen\", \"NSView\", \"NSWindow\", \"block2\", \"objc2-core-graphics\", \"objc2-quartz-core\"]\n\n[target.\"cfg(target_os = \\\"macos\\\")\".dependencies.objc2-quartz-core]\nversion = \"0.3\"\ndefault-features = false\nfeatures = [\"CALayer\", \"objc2-core-graphics\"]\n\n[target.\"cfg(target_os = \\\"macos\\\")\".dependencies.objc2-foundation]\nversion = \"0.3\"\ndefault-features = false\nfeatures = [\"NSArray\", \"NSDate\", \"NSNotification\", \"NSObject\", \"NSValue\", \"NSRunLoop\", \"NSString\", \"NSThread\", \"NSTimer\", \"NSURL\"]\n\n[target.\"cfg(any(target_os = \\\"linux\\\", target_os = \\\"dragonfly\\\", target_os = \\\"freebsd\\\", target_os = \\\"openbsd\\\", target_os = \\\"netbsd\\\"))\".dependencies]\nlibc = \"0.2\"\nx11-dl = \"2.21\"\n\n[target.\"cfg(any(target_os = \\\"linux\\\", target_os = \\\"dragonfly\\\", target_os = \\\"freebsd\\\", target_os = \\\"openbsd\\\", target_os = \\\"netbsd\\\"))\".dependencies.dlopen2]\nversion = \"0.8\"\nfeatures = [\"derive\"]\n\n[target.\"cfg(any(target_os = \\\"linux\\\", target_os = \\\"dragonfly\\\", target_os = \\\"freebsd\\\", target_os = \\\"openbsd\\\", target_os = \\\"netbsd\\\"))\".dependencies.gtk]\nversion = \"0.18\"\nfeatures = [\"v3_24\"]\n\n[features]\ndefault = [\"sandbox\"]\ndevtools = []\nmacos-private-api = [\"tauri-runtime/macos-private-api\"]\nsandbox = [\"cef/sandbox\"]\n",
+        "contents": "[package]\nname = \"tauri-runtime-cef\"\nversion = \"0.1.0\"\nlinks = \"tauri_runtime_cef\"\nauthors = [\"Tauri Programme within The Commons Conservancy\"]\nhomepage = \"https://tauri.app/\"\nrepository = \"https://github.com/tauri-apps/tauri\"\ncategories = [\"gui\", \"web-programming\"]\nlicense = \"Apache-2.0 OR MIT\"\nedition = \"2024\"\nrust-version = \"1.95\"\n\n[[test]]\nname = \"macos-application-bootstrap\"\nharness = false\n\n[dependencies]\nbase64 = \"0.22\"\ndirs = \"6\"\ndioxus-debug-cell = \"0.1\"\nhttp = \"1\"\nhtml5ever = \"0.29\"\nlog = \"0.4.21\"\nraw-window-handle = \"0.6\"\nserde_json = \"1\"\nsha2 = \"0.10\"\nurl = \"2\"\nwinit = \"=0.31.0-beta.2\"\n\n[dependencies.tauri]\nversion = \"2.11.5\"\npath = \"./crates/tauri\"\ndefault-features = false\n\n[dependencies.tauri-macros]\nversion = \"~2.6.3\"\npath = \"./crates/tauri-macros\"\n\n[dependencies.cef]\nversion = \"=151.8.1\"\nfeatures = [\"build-util\", \"linux-x11\"]\n\n[dependencies.cef-dll-sys]\nversion = \"=151.8.1\"\ndefault-features = false\n\n[dependencies.kuchiki]\npackage = \"kuchikiki\"\nversion = \"0.8.8-speedreader\"\n\n[dependencies.serde]\nversion = \"1\"\nfeatures = [\"derive\"]\n\n[dependencies.tauri-runtime]\nversion = \"2.11.2\"\npath = \"../tauri-runtime\"\n\n[dependencies.tauri-utils]\nversion = \"2.9.2\"\npath = \"../tauri-utils\"\nfeatures = [\"html-manipulation\"]\n\n[target.\"cfg(windows)\".dependencies.softbuffer]\nversion = \"0.4\"\ndefault-features = false\n\n[target.\"cfg(windows)\".dependencies.windows]\nversion = \"0.61\"\nfeatures = [\"Win32_Foundation\", \"Win32_Graphics_Dwm\", \"Win32_Graphics_Gdi\", \"Win32_System_Com\", \"Win32_Globalization\", \"Win32_System_LibraryLoader\", \"Win32_UI_Input_KeyboardAndMouse\", \"Win32_UI_Shell\", \"Win32_UI_WindowsAndMessaging\"]\n\n[target.\"cfg(target_os = \\\"macos\\\")\".dependencies]\nobjc2 = \"0.6\"\n\n[target.\"cfg(target_os = \\\"macos\\\")\".dependencies.objc2-application-services]\nversion = \"0.3\"\ndefault-features = false\nfeatures = [\"HIServices\", \"Processes\"]\n\n[target.\"cfg(target_os = \\\"macos\\\")\".dependencies.objc2-app-kit]\nversion = \"0.3\"\ndefault-features = false\nfeatures = [\"NSApplication\", \"NSBezierPath\", \"NSColor\", \"NSControl\", \"NSDockTile\", \"NSEvent\", \"NSImage\", \"NSImageView\", \"NSProgressIndicator\", \"NSResponder\", \"NSRunningApplication\", \"NSScreen\", \"NSView\", \"NSWindow\", \"block2\", \"objc2-core-graphics\", \"objc2-quartz-core\"]\n\n[target.\"cfg(target_os = \\\"macos\\\")\".dependencies.objc2-quartz-core]\nversion = \"0.3\"\ndefault-features = false\nfeatures = [\"CALayer\", \"objc2-core-graphics\"]\n\n[target.\"cfg(target_os = \\\"macos\\\")\".dependencies.objc2-foundation]\nversion = \"0.3\"\ndefault-features = false\nfeatures = [\"NSArray\", \"NSDate\", \"NSLocale\", \"NSNotification\", \"NSObject\", \"NSValue\", \"NSRunLoop\", \"NSString\", \"NSThread\", \"NSTimer\", \"NSURL\"]\n\n[target.\"cfg(any(target_os = \\\"linux\\\", target_os = \\\"dragonfly\\\", target_os = \\\"freebsd\\\", target_os = \\\"openbsd\\\", target_os = \\\"netbsd\\\"))\".dependencies]\nlibc = \"0.2\"\nx11-dl = \"2.21\"\n\n[target.\"cfg(any(target_os = \\\"linux\\\", target_os = \\\"dragonfly\\\", target_os = \\\"freebsd\\\", target_os = \\\"openbsd\\\", target_os = \\\"netbsd\\\"))\".dependencies.dlopen2]\nversion = \"0.8\"\nfeatures = [\"derive\"]\n\n[target.\"cfg(any(target_os = \\\"linux\\\", target_os = \\\"dragonfly\\\", target_os = \\\"freebsd\\\", target_os = \\\"openbsd\\\", target_os = \\\"netbsd\\\"))\".dependencies.gtk]\nversion = \"0.18\"\nfeatures = [\"v3_24\"]\n\n[features]\ndefault = []\ndevtools = [\"tauri-runtime/devtools\", \"tauri/devtools\"]\nmacos-private-api = [\"tauri-runtime/macos-private-api\", \"tauri/macos-private-api\"]\nunstable = [\"tauri/unstable\"]\n",
         "dest": "cargo/vendor/tauri-runtime-cef",
         "dest-filename": "Cargo.toml"
     },
@@ -10758,25 +11057,7 @@
     {
         "type": "shell",
         "commands": [
-            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-48d8802/crates/tauri-runtime-wry\" \"cargo/vendor/tauri-runtime-wry\""
-        ]
-    },
-    {
-        "type": "inline",
-        "contents": "[package]\nname = \"tauri-runtime-wry\"\nversion = \"2.11.4\"\ndescription = \"Wry bindings to the Tauri runtime\"\nexclude = [\"CHANGELOG.md\", \"/target\"]\nreadme = \"README.md\"\nauthors = [\"Tauri Programme within The Commons Conservancy\"]\nhomepage = \"https://tauri.app/\"\nrepository = \"https://github.com/tauri-apps/tauri\"\ncategories = [\"gui\", \"web-programming\"]\nlicense = \"Apache-2.0 OR MIT\"\nedition = \"2024\"\nrust-version = \"1.95\"\n\n[dependencies]\nraw-window-handle = \"0.6\"\nhttp = \"1\"\nurl = \"2\"\nlog = \"0.4.21\"\n\n[dependencies.wry]\nversion = \"0.56.0\"\ndefault-features = false\nfeatures = [\"os-webview\", \"linux-body\"]\n\n[dependencies.tao]\nversion = \"0.37.0\"\ndefault-features = false\nfeatures = [\"rwh_06\"]\n\n[dependencies.tauri-runtime]\nversion = \"~2.11.3\"\npath = \"./crates/tauri-runtime\"\n\n[dependencies.tauri-utils]\nversion = \"~2.9.3\"\npath = \"./crates/tauri-utils\"\n\n[dependencies.tracing]\nversion = \"0.1\"\noptional = true\n\n[target.\"cfg(windows)\".dependencies]\nwebview2-com = \"0.38\"\nonce_cell = \"1.20\"\n\n[target.\"cfg(windows)\".dependencies.softbuffer]\nversion = \"0.4\"\ndefault-features = false\n\n[target.\"cfg(windows)\".dependencies.windows]\nversion = \"0.61\"\nfeatures = [\"Win32_Foundation\", \"Win32_Graphics_Dwm\", \"Win32_UI_WindowsAndMessaging\"]\n\n[target.\"cfg(any(target_os = \\\"linux\\\", target_os = \\\"dragonfly\\\", target_os = \\\"freebsd\\\", target_os = \\\"openbsd\\\", target_os = \\\"netbsd\\\"))\".dependencies]\npercent-encoding = \"2\"\n\n[target.\"cfg(any(target_os = \\\"linux\\\", target_os = \\\"dragonfly\\\", target_os = \\\"freebsd\\\", target_os = \\\"openbsd\\\", target_os = \\\"netbsd\\\"))\".dependencies.gtk]\nversion = \"0.18\"\nfeatures = [\"v3_24\"]\n\n[target.\"cfg(any(target_os = \\\"linux\\\", target_os = \\\"dragonfly\\\", target_os = \\\"freebsd\\\", target_os = \\\"openbsd\\\", target_os = \\\"netbsd\\\"))\".dependencies.webkit2gtk]\nversion = \"=2.0\"\nfeatures = [\"v2_40\"]\n\n[target.\"cfg(target_vendor = \\\"apple\\\")\".dependencies]\nobjc2 = \"0.6\"\n\n[target.\"cfg(target_os = \\\"macos\\\")\".dependencies.objc2-app-kit]\nversion = \"0.3.2\"\ndefault-features = false\nfeatures = [\"block2\", \"NSApplication\", \"NSResponder\", \"NSView\", \"NSWindow\", \"NSScreen\", \"NSGraphics\"]\n\n[target.\"cfg(target_os = \\\"macos\\\")\".dependencies.objc2-web-kit]\nversion = \"0.3\"\nfeatures = [\"objc2-app-kit\", \"WKWebView\"]\n\n[target.\"cfg(target_os = \\\"android\\\")\".dependencies]\njni = \"0.21\"\n\n[features]\ndefault = [\"x11\", \"dbus\"]\ndevtools = [\"wry/devtools\", \"tauri-runtime/devtools\"]\nx11 = [\"tao/x11\", \"wry/x11\"]\nmacos-private-api = [\"tauri-runtime/macos-private-api\"]\nobjc-exception = []\ntracing = [\"dep:tracing\", \"wry/tracing\"]\nmacos-proxy = [\"wry/mac-proxy\"]\nunstable = []\ncommon-controls-v6 = [\"windows/Win32_UI_Controls\", \"windows/Win32_UI_Shell\"]\ndbus = [\"tao/dbus\"]\n",
-        "dest": "cargo/vendor/tauri-runtime-wry",
-        "dest-filename": "Cargo.toml"
-    },
-    {
-        "type": "inline",
-        "contents": "{\"package\": null, \"files\": {}}",
-        "dest": "cargo/vendor/tauri-runtime-wry",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "shell",
-        "commands": [
-            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-48d8802/crates/tauri-utils\" \"cargo/vendor/tauri-utils\""
+            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-f238ea5/crates/tauri-utils\" \"cargo/vendor/tauri-utils\""
         ]
     },
     {
@@ -12133,6 +12414,19 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/waker-fn/waker-fn-1.2.0.crate",
+        "sha256": "317211a0dc0ceedd78fb2ca9a44aed3d7b9b26f81870d485c07122b4350673b7",
+        "dest": "cargo/vendor/waker-fn-1.2.0"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"317211a0dc0ceedd78fb2ca9a44aed3d7b9b26f81870d485c07122b4350673b7\", \"files\": {}}",
+        "dest": "cargo/vendor/waker-fn-1.2.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/walkdir/walkdir-2.5.0.crate",
         "sha256": "29790946404f91d9c5d06f9874efddea1dc06c5efe94541a7d6863108e3a5e4b",
         "dest": "cargo/vendor/walkdir-2.5.0"
@@ -12666,6 +12960,19 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/windows/windows-0.44.0.crate",
+        "sha256": "9e745dab35a0c4c77aa3ce42d595e13d2003d6902d6b08c9ef5fc326d08da12b",
+        "dest": "cargo/vendor/windows-0.44.0"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"9e745dab35a0c4c77aa3ce42d595e13d2003d6902d6b08c9ef5fc326d08da12b\", \"files\": {}}",
+        "dest": "cargo/vendor/windows-0.44.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/windows/windows-0.48.0.crate",
         "sha256": "e686886bc078bc1b0b600cac0147aadb815089b6e4da64016cbd754b6342700f",
         "dest": "cargo/vendor/windows-0.48.0"
@@ -12718,19 +13025,6 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/windows/windows-0.62.2.crate",
-        "sha256": "527fadee13e0c05939a6a05d5bd6eec6cd2e3dbd648b9f8e447c6518133d8580",
-        "dest": "cargo/vendor/windows-0.62.2"
-    },
-    {
-        "type": "inline",
-        "contents": "{\"package\": \"527fadee13e0c05939a6a05d5bd6eec6cd2e3dbd648b9f8e447c6518133d8580\", \"files\": {}}",
-        "dest": "cargo/vendor/windows-0.62.2",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/windows-collections/windows-collections-0.2.0.crate",
         "sha256": "3beeceb5e5cfd9eb1d76b381630e82c4241ccd0d27f1a39ed41b2760b255c5e8",
         "dest": "cargo/vendor/windows-collections-0.2.0"
@@ -12739,19 +13033,6 @@
         "type": "inline",
         "contents": "{\"package\": \"3beeceb5e5cfd9eb1d76b381630e82c4241ccd0d27f1a39ed41b2760b255c5e8\", \"files\": {}}",
         "dest": "cargo/vendor/windows-collections-0.2.0",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/windows-collections/windows-collections-0.3.2.crate",
-        "sha256": "23b2d95af1a8a14a3c7367e1ed4fc9c20e0a26e79551b1454d72583c97cc6610",
-        "dest": "cargo/vendor/windows-collections-0.3.2"
-    },
-    {
-        "type": "inline",
-        "contents": "{\"package\": \"23b2d95af1a8a14a3c7367e1ed4fc9c20e0a26e79551b1454d72583c97cc6610\", \"files\": {}}",
-        "dest": "cargo/vendor/windows-collections-0.3.2",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -12817,19 +13098,6 @@
         "type": "inline",
         "contents": "{\"package\": \"fc6a41e98427b19fe4b73c550f060b59fa592d7d686537eebf9385621bfbad8e\", \"files\": {}}",
         "dest": "cargo/vendor/windows-future-0.2.1",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/windows-future/windows-future-0.3.2.crate",
-        "sha256": "e1d6f90251fe18a279739e78025bd6ddc52a7e22f921070ccdc67dde84c605cb",
-        "dest": "cargo/vendor/windows-future-0.3.2"
-    },
-    {
-        "type": "inline",
-        "contents": "{\"package\": \"e1d6f90251fe18a279739e78025bd6ddc52a7e22f921070ccdc67dde84c605cb\", \"files\": {}}",
-        "dest": "cargo/vendor/windows-future-0.3.2",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -12960,19 +13228,6 @@
         "type": "inline",
         "contents": "{\"package\": \"9150af68066c4c5c07ddc0ce30421554771e528bde427614c61038bc2c92c2b1\", \"files\": {}}",
         "dest": "cargo/vendor/windows-numerics-0.2.0",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/windows-numerics/windows-numerics-0.3.1.crate",
-        "sha256": "6e2e40844ac143cdb44aead537bbf727de9b044e107a0f1220392177d15b0f26",
-        "dest": "cargo/vendor/windows-numerics-0.3.1"
-    },
-    {
-        "type": "inline",
-        "contents": "{\"package\": \"6e2e40844ac143cdb44aead537bbf727de9b044e107a0f1220392177d15b0f26\", \"files\": {}}",
-        "dest": "cargo/vendor/windows-numerics-0.3.1",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -13220,19 +13475,6 @@
         "type": "inline",
         "contents": "{\"package\": \"b66463ad2e0ea3bbf808b7f1d371311c80e115c0b71d60efc142cafbcfb057a6\", \"files\": {}}",
         "dest": "cargo/vendor/windows-threading-0.1.0",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/windows-threading/windows-threading-0.2.1.crate",
-        "sha256": "3949bd5b99cafdf1c7ca86b43ca564028dfe27d66958f2470940f73d86d75b37",
-        "dest": "cargo/vendor/windows-threading-0.2.1"
-    },
-    {
-        "type": "inline",
-        "contents": "{\"package\": \"3949bd5b99cafdf1c7ca86b43ca564028dfe27d66958f2470940f73d86d75b37\", \"files\": {}}",
-        "dest": "cargo/vendor/windows-threading-0.2.1",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -13901,19 +14143,6 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/wry/wry-0.56.1.crate",
-        "sha256": "375becb4aded9913f736443cf88000c6311478db69814cc06070465e4cc44c98",
-        "dest": "cargo/vendor/wry-0.56.1"
-    },
-    {
-        "type": "inline",
-        "contents": "{\"package\": \"375becb4aded9913f736443cf88000c6311478db69814cc06070465e4cc44c98\", \"files\": {}}",
-        "dest": "cargo/vendor/wry-0.56.1",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/wyz/wyz-0.5.1.crate",
         "sha256": "05f360fc0b24296329c78fda852a1e9ae82de9cf7b27dae4b7f62f118f77b9ed",
         "dest": "cargo/vendor/wyz-0.5.1"
@@ -13922,19 +14151,6 @@
         "type": "inline",
         "contents": "{\"package\": \"05f360fc0b24296329c78fda852a1e9ae82de9cf7b27dae4b7f62f118f77b9ed\", \"files\": {}}",
         "dest": "cargo/vendor/wyz-0.5.1",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/x11/x11-2.21.0.crate",
-        "sha256": "502da5464ccd04011667b11c435cb992822c2c0dbde1770c988480d312a0db2e",
-        "dest": "cargo/vendor/x11-2.21.0"
-    },
-    {
-        "type": "inline",
-        "contents": "{\"package\": \"502da5464ccd04011667b11c435cb992822c2c0dbde1770c988480d312a0db2e\", \"files\": {}}",
-        "dest": "cargo/vendor/x11-2.21.0",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -14018,6 +14234,19 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/xdg-home/xdg-home-1.3.0.crate",
+        "sha256": "ec1cdab258fb55c0da61328dc52c8764709b249011b2cad0454c72f0bf10a1f6",
+        "dest": "cargo/vendor/xdg-home-1.3.0"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"ec1cdab258fb55c0da61328dc52c8764709b249011b2cad0454c72f0bf10a1f6\", \"files\": {}}",
+        "dest": "cargo/vendor/xdg-home-1.3.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/xkbcommon-dl/xkbcommon-dl-0.4.2.crate",
         "sha256": "d039de8032a9a8856a6be89cea3e5d12fdd82306ab7c94d74e6deab2460651c5",
         "dest": "cargo/vendor/xkbcommon-dl-0.4.2"
@@ -14096,6 +14325,19 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/zbus/zbus-3.15.2.crate",
+        "sha256": "675d170b632a6ad49804c8cf2105d7c31eddd3312555cffd4b740e08e97c25e6",
+        "dest": "cargo/vendor/zbus-3.15.2"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"675d170b632a6ad49804c8cf2105d7c31eddd3312555cffd4b740e08e97c25e6\", \"files\": {}}",
+        "dest": "cargo/vendor/zbus-3.15.2",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/zbus/zbus-5.17.0.crate",
         "sha256": "a28b97f866896a4be7aefd2b5a8e01bb6773d19a775d54ab28b4d094b9a4480e",
         "dest": "cargo/vendor/zbus-5.17.0"
@@ -14109,6 +14351,19 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/zbus_macros/zbus_macros-3.15.2.crate",
+        "sha256": "7131497b0f887e8061b430c530240063d33bf9455fa34438f388a245da69e0a5",
+        "dest": "cargo/vendor/zbus_macros-3.15.2"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"7131497b0f887e8061b430c530240063d33bf9455fa34438f388a245da69e0a5\", \"files\": {}}",
+        "dest": "cargo/vendor/zbus_macros-3.15.2",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/zbus_macros/zbus_macros-5.17.0.crate",
         "sha256": "5e05ad887425eecf5e8384dc2406a4a9313eb73468712fc1cdea362eb4fe0469",
         "dest": "cargo/vendor/zbus_macros-5.17.0"
@@ -14117,6 +14372,19 @@
         "type": "inline",
         "contents": "{\"package\": \"5e05ad887425eecf5e8384dc2406a4a9313eb73468712fc1cdea362eb4fe0469\", \"files\": {}}",
         "dest": "cargo/vendor/zbus_macros-5.17.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/zbus_names/zbus_names-2.6.1.crate",
+        "sha256": "437d738d3750bed6ca9b8d423ccc7a8eb284f6b1d6d4e225a0e4e6258d864c8d",
+        "dest": "cargo/vendor/zbus_names-2.6.1"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"437d738d3750bed6ca9b8d423ccc7a8eb284f6b1d6d4e225a0e4e6258d864c8d\", \"files\": {}}",
+        "dest": "cargo/vendor/zbus_names-2.6.1",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -14369,6 +14637,19 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/zvariant/zvariant-3.15.2.crate",
+        "sha256": "4eef2be88ba09b358d3b58aca6e41cd853631d44787f319a1383ca83424fb2db",
+        "dest": "cargo/vendor/zvariant-3.15.2"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"4eef2be88ba09b358d3b58aca6e41cd853631d44787f319a1383ca83424fb2db\", \"files\": {}}",
+        "dest": "cargo/vendor/zvariant-3.15.2",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/zvariant/zvariant-5.13.0.crate",
         "sha256": "7cf057bb00bf5c9ad77abb6147b0ca4818236a1858416e9d988e40d6322fefa7",
         "dest": "cargo/vendor/zvariant-5.13.0"
@@ -14382,6 +14663,19 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/zvariant_derive/zvariant_derive-3.15.2.crate",
+        "sha256": "37c24dc0bed72f5f90d1f8bb5b07228cbf63b3c6e9f82d82559d4bae666e7ed9",
+        "dest": "cargo/vendor/zvariant_derive-3.15.2"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"37c24dc0bed72f5f90d1f8bb5b07228cbf63b3c6e9f82d82559d4bae666e7ed9\", \"files\": {}}",
+        "dest": "cargo/vendor/zvariant_derive-3.15.2",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/zvariant_derive/zvariant_derive-5.13.0.crate",
         "sha256": "8118ca6bda77bfc0ab51d660db0c955f2505eef854c9a449435bccb616933b31",
         "dest": "cargo/vendor/zvariant_derive-5.13.0"
@@ -14390,6 +14684,19 @@
         "type": "inline",
         "contents": "{\"package\": \"8118ca6bda77bfc0ab51d660db0c955f2505eef854c9a449435bccb616933b31\", \"files\": {}}",
         "dest": "cargo/vendor/zvariant_derive-5.13.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/zvariant_utils/zvariant_utils-1.0.1.crate",
+        "sha256": "7234f0d811589db492d16893e3f21e8e2fd282e6d01b0cddee310322062cc200",
+        "dest": "cargo/vendor/zvariant_utils-1.0.1"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"7234f0d811589db492d16893e3f21e8e2fd282e6d01b0cddee310322062cc200\", \"files\": {}}",
+        "dest": "cargo/vendor/zvariant_utils-1.0.1",
         "dest-filename": ".cargo-checksum.json"
     },
     {

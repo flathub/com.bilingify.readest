@@ -51,7 +51,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/readest/readest.git
-        commit: 8a56831af61841175b49cc2740bffcde57b470b0
+        commit: fd9f0c0645b8350ed83bc02ddefbbfc598115d33
       - type: archive
         url: https://registry.npmjs.org/pnpm/-/pnpm-11.1.1.tgz
         sha256: 05b282d06332295c736f0b20c8bdf185325bf1bca682c91ed81154a3c6851cc0
@@ -93,18 +93,18 @@ modules:
 
       # The tauri CLI from upstream's feat/cef branch (the one that bundles CEF).
       - type: archive
-        url: https://registry.npmjs.org/@tauri-apps/cli-cef/-/cli-cef-3.0.0-alpha.26.tgz
-        sha512: 96af9127b104f6c363d0e696afa74583e6782b20bd93acf499aa1f8e6597359f40f4ed580bdba9375119d043916549e10c2c6f5bfdc1542e2194d7e412f00208
+        url: https://registry.npmjs.org/@tauri-apps/cli-cef/-/cli-cef-3.0.0-alpha.27.tgz
+        sha512: 42972d3ab1b7743be12a1496aa0153003cb042051a3c104cde79a2ebcf0faf5b42d51c4018cac67b00018ddac4a720315a734a67e366ca1703ba99239850de2e
         dest: cli-cef
       - type: archive
         only-arches: [x86_64]
-        url: https://registry.npmjs.org/@tauri-apps/cli-cef-linux-x64-gnu/-/cli-cef-linux-x64-gnu-3.0.0-alpha.26.tgz
-        sha512: 5398e37359dce4cb9e4cdf646da199ed56b051dd0c38cf7de9e20d41d35d02e5faa88ed53b3ca7b64f9a76a925a885d16b88b273307bb6f4b4c59be6927712cc
+        url: https://registry.npmjs.org/@tauri-apps/cli-cef-linux-x64-gnu/-/cli-cef-linux-x64-gnu-3.0.0-alpha.27.tgz
+        sha512: a79b035f046eb3344456b9615bb0a9ce4de7cf99ea1421643f4c816b03abb620e4503ced620d349d514484cac46ea2521e025537a076c3c842077790938bdfaf
         dest: cli-cef/node_modules/@tauri-apps/cli-cef-linux-x64-gnu
       - type: archive
         only-arches: [aarch64]
-        url: https://registry.npmjs.org/@tauri-apps/cli-cef-linux-arm64-gnu/-/cli-cef-linux-arm64-gnu-3.0.0-alpha.26.tgz
-        sha512: 854a90125f0e3f7e223d48778b4f50aeadeab4cf0808c7fb2e4bb48e59563604b8056f0df06df2a2beb7b06319f66517dffad23d511dfed8d9528dea08643d27
+        url: https://registry.npmjs.org/@tauri-apps/cli-cef-linux-arm64-gnu/-/cli-cef-linux-arm64-gnu-3.0.0-alpha.27.tgz
+        sha512: 934c3af21ebd5e4a5ca0c6e9734907cabc88865582f4ff9f41e7d5356cef49c6237782ee66b8bc45c96cb0224f1ca4d59a53fc6ffefac236cd79a44442fd4950
         dest: cli-cef/node_modules/@tauri-apps/cli-cef-linux-arm64-gnu
 
       - type: script
