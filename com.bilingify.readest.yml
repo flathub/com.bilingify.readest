@@ -6,6 +6,7 @@ sdk: org.gnome.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.node26
   - org.freedesktop.Sdk.Extension.rust-stable
+  - org.freedesktop.Sdk.Extension.llvm21
 
 command: readest
 rename-desktop-file: Readest.desktop
@@ -35,9 +36,12 @@ modules:
   - name: readest
     buildsystem: simple
     build-options:
-      append-path: /usr/lib/sdk/node26/bin:/usr/lib/sdk/rust-stable/bin:/run/build/readest/pnpm/bin
+      append-path: /usr/lib/sdk/node26/bin:/usr/lib/sdk/rust-stable/bin:/run/build/readest/pnpm/bin:/usr/lib/sdk/llvm21/bin
+      prepend-ld-library-path: /usr/lib/sdk/llvm21/lib
       env:
         CARGO_HOME: /run/build/readest/cargo
+        # soundtouch-ffi generates its bindings with bindgen, which loads libclang.
+        LIBCLANG_PATH: /usr/lib/sdk/llvm21/lib
         # Playwright's browsers only serve the e2e tests; their downloads are
         # not vendored, so its postinstall must not look for them.
         PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: "1"
