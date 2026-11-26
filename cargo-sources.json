@@ -8,8 +8,8 @@
     {
         "type": "git",
         "url": "https://github.com/readest/tauri",
-        "commit": "d6ef6e4c755228713e7358a27794a89cfd30969f",
-        "dest": "flatpak-cargo/git/tauri-d6ef6e4"
+        "commit": "c970d1f4b9b050aedccf49d7b68054825753585b",
+        "dest": "flatpak-cargo/git/tauri-c970d1f"
     },
     {
         "type": "git",
@@ -10893,7 +10893,7 @@
     {
         "type": "shell",
         "commands": [
-            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-d6ef6e4/crates/tauri\" \"cargo/vendor/tauri\""
+            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-c970d1f/crates/tauri\" \"cargo/vendor/tauri\""
         ]
     },
     {
@@ -10911,7 +10911,7 @@
     {
         "type": "shell",
         "commands": [
-            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-d6ef6e4/crates/tauri-build\" \"cargo/vendor/tauri-build\""
+            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-c970d1f/crates/tauri-build\" \"cargo/vendor/tauri-build\""
         ]
     },
     {
@@ -10929,7 +10929,7 @@
     {
         "type": "shell",
         "commands": [
-            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-d6ef6e4/crates/tauri-codegen\" \"cargo/vendor/tauri-codegen\""
+            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-c970d1f/crates/tauri-codegen\" \"cargo/vendor/tauri-codegen\""
         ]
     },
     {
@@ -10947,7 +10947,7 @@
     {
         "type": "shell",
         "commands": [
-            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-d6ef6e4/crates/tauri-macros\" \"cargo/vendor/tauri-macros\""
+            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-c970d1f/crates/tauri-macros\" \"cargo/vendor/tauri-macros\""
         ]
     },
     {
@@ -10965,7 +10965,7 @@
     {
         "type": "shell",
         "commands": [
-            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-d6ef6e4/crates/tauri-plugin\" \"cargo/vendor/tauri-plugin\""
+            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-c970d1f/crates/tauri-plugin\" \"cargo/vendor/tauri-plugin\""
         ]
     },
     {
@@ -11385,7 +11385,7 @@
     {
         "type": "shell",
         "commands": [
-            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-d6ef6e4/crates/tauri-runtime\" \"cargo/vendor/tauri-runtime\""
+            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-c970d1f/crates/tauri-runtime\" \"cargo/vendor/tauri-runtime\""
         ]
     },
     {
@@ -11403,7 +11403,7 @@
     {
         "type": "shell",
         "commands": [
-            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-d6ef6e4/crates/tauri-runtime-cef\" \"cargo/vendor/tauri-runtime-cef\""
+            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-c970d1f/crates/tauri-runtime-cef\" \"cargo/vendor/tauri-runtime-cef\""
         ]
     },
     {
@@ -11421,7 +11421,7 @@
     {
         "type": "shell",
         "commands": [
-            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-d6ef6e4/crates/tauri-utils\" \"cargo/vendor/tauri-utils\""
+            "cp -r --reflink=auto \"flatpak-cargo/git/tauri-c970d1f/crates/tauri-utils\" \"cargo/vendor/tauri-utils\""
         ]
     },
     {
